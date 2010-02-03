@@ -1,3 +1,23 @@
 All footprints in this collection are released under the CC-BY-SA 3.0 license.
 
 It is ok to use these footprints in any project without any liabilities.
+
+The footprints are based on the following datasheets:
+
+Molex connector library (pel_molex):
+------------------------
+
+53398: http://www.molex.com/pdm_docs/sd/533980271_sd.pdf
+53047: http://www.molex.com/pdm_docs/sd/530470210_sd.pdf
+53261: http://www.molex.com/pdm_docs/sd/532610271_sd.pdf
+
+Dual terminal components library (pel_dipol_comp):
+--------------------------------------------------
+
+0603, 1206 footprints: http://www.ibselectronics.com/pdf/pa/walsin/smt_notes.pdf
+Tantal footprints: http://www.kemet.com/kemet/web/homepage/kfbk3.nsf/vaFeedbackFAQ/2209BDBA03843BBF85256BCD004EBC11/$file/f2100e.pdf
+
+STM32 microcontroller footprints (pel_stm32):
+---------------------------------------------
+
+Medium density: http://www.st.com/stonline/products/literature/ds/13587/stm32f103rb.pdf
