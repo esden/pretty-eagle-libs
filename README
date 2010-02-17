@@ -21,3 +21,49 @@ STM32 microcontroller footprints (pel_stm32):
 ---------------------------------------------
 
 Medium density: http://www.st.com/stonline/products/literature/ds/13587/stm32f103rb.pdf
+
+Footprint design rules:
+=======================
+
+These rules apply to all footprints contained in the pretty-eagle-libs library. They are only applicable to this library and in many cases are a matter of taste.
+
+General rules:
+--------------
+
+ * >NAME macro should be on tName layer
+ * >VALUE macro should be on tValue layer
+ * All texts (>NAME, >VALUE aso) need to have the following settings
+   (to acheve line thickness of 6mil):
+   * Font: Vector
+   * Size: 24mil
+   * Ratio: %25
+ * All drawings that go on the silkscreen have to be on tPlace and bPlace layers
+   * Line thickness has to be 6mil
+   * No part of the drawing should overlap with pads and if possible not overlap
+     with tStop
+   * The drawing has to be as simple as possible to reflect only the placement
+     and orientation of the part nothing more (i.e. the outline of the part)
+     the only exception to that rule are the part type markings for capacitors,
+     resistors, inductors, led's aso. that share the same type of footprint and
+     outline. (this is to simplify manual population of the pcb)
+ * All drawings should reflect the part outline on the tDocu and bDocu layers
+   for place plan generation. (Nothing on that layer goes on the PCB it is
+   only for paper print and documentation)
+   * Line thickness has to be 6mil
+   * The drawing may overlap pad areas of the footprint
+   * The drawing has to be simple and if possible reflect the part type and
+     orientation of the part
+ * All drawings have to contain a tGlue bGlue layer drawings for glue application,
+   to make two sided reflow population possible
+   * In general that is a square area under the part
+
+Dual terminal component rules:
+------------------------------
+
+ * All types of parts receive a geometrical marking between the pads
+   * Resistor: Unfilled rectangle
+   * Non Polar Capacitor: Circle/Oval
+   * Polar Capacitor: Circle/Oval and a Bar indicating the negative pole
+   * LED: Triangle and a Bar
+   * Inductor: Filled Rectangle
+ * The part type marking is as wide as the dummy track area stated in the smt_notes.pdf
