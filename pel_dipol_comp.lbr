@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -600,6 +600,34 @@ http://www.diotec.com/produkte/files/loetpads.pdf
 <wire x1="0.0762" y1="0" x2="0.0762" y2="0.1524" width="0.1524" layer="21"/>
 <wire x1="-0.0762" y1="0" x2="0.0762" y2="0" width="0.1524" layer="21"/>
 </package>
+<package name="SOD-123-DIO">
+<wire x1="-2.345" y1="1.05" x2="2.345" y2="1.05" width="0.0508" layer="39"/>
+<wire x1="2.345" y1="1.05" x2="2.345" y2="-1.05" width="0.0508" layer="39"/>
+<wire x1="2.345" y1="-1.05" x2="-2.345" y2="-1.05" width="0.0508" layer="39"/>
+<wire x1="-2.345" y1="-1.05" x2="-2.345" y2="1.05" width="0.0508" layer="39"/>
+<wire x1="-0.4572" y1="0.4572" x2="-0.4572" y2="-0.4572" width="0.254" layer="21"/>
+<smd name="C" x="-1.64" y="0" dx="0.91" dy="1.22" layer="1"/>
+<smd name="A" x="1.64" y="0" dx="0.91" dy="1.22" layer="1"/>
+<text x="-2.159" y="0.9398" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-2.159" y="-1.6002" size="0.635" layer="27" font="vector" ratio="16">&gt;VALUE</text>
+<polygon width="0.254" layer="21">
+<vertex x="-0.4572" y="0"/>
+<vertex x="0.4572" y="0.4572"/>
+<vertex x="0.4572" y="-0.4572"/>
+</polygon>
+<polygon width="0.254" layer="51">
+<vertex x="-0.4572" y="0"/>
+<vertex x="0.4572" y="0.4572"/>
+<vertex x="0.4572" y="-0.4572"/>
+</polygon>
+<wire x1="-0.4572" y1="0.4572" x2="-0.4572" y2="-0.4572" width="0.254" layer="51"/>
+<wire x1="-1.35" y1="-0.8" x2="1.35" y2="-0.8" width="0.1524" layer="21"/>
+<wire x1="1.35" y1="0.8" x2="-1.35" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="1.35" y1="0.8" x2="-1.35" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="-1.35" y1="-0.8" x2="1.35" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.35" y1="0.8" x2="-1.35" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="1.35" y1="-0.8" x2="1.35" y2="0.8" width="0.1524" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAPACITOR">
@@ -985,6 +1013,15 @@ http://www.diotec.com/produkte/files/loetpads.pdf
 </technologies>
 </device>
 <device name="-0603" package="0603-LED">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SOD-123" package="SOD-123-DIO">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
