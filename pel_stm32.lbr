@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -106,17 +106,15 @@ Industrial temp</description>
 <package name="VFQFPN36-LP">
 <wire x1="3" y1="3" x2="3" y2="-3" width="0.127" layer="51"/>
 <wire x1="3" y1="-3" x2="-3" y2="-3" width="0.127" layer="51"/>
-<wire x1="-3" y1="2.375" x2="-2.375" y2="3" width="0.1524" layer="21"/>
 <wire x1="2.375" y1="3" x2="3" y2="3" width="0.1524" layer="21"/>
 <wire x1="3" y1="3" x2="3" y2="2.375" width="0.1524" layer="21"/>
 <wire x1="3" y1="-2.375" x2="3" y2="-3" width="0.1524" layer="21"/>
 <wire x1="3" y1="-3" x2="2.375" y2="-3" width="0.1524" layer="21"/>
 <wire x1="-3" y1="-2.375" x2="-3" y2="-3" width="0.1524" layer="21"/>
 <wire x1="-3" y1="-3" x2="-2.375" y2="-3" width="0.1524" layer="21"/>
-<wire x1="-3" y1="-3" x2="-3" y2="2.4" width="0.127" layer="51"/>
-<wire x1="-3" y1="2.4" x2="-2.4" y2="3" width="0.127" layer="51"/>
-<wire x1="-2.4" y1="3" x2="3" y2="3" width="0.127" layer="51"/>
-<smd name="1" x="-2.775" y="2" dx="0.75" dy="0.3" layer="1"/>
+<wire x1="-3" y1="-3" x2="-3" y2="3" width="0.127" layer="51"/>
+<wire x1="-3" y1="3" x2="3" y2="3" width="0.127" layer="51"/>
+<smd name="1" x="-2.775" y="2" dx="0.65" dy="0.2" layer="1" stop="no" cream="no"/>
 <smd name="2" x="-2.775" y="1.5" dx="0.75" dy="0.3" layer="1"/>
 <smd name="3" x="-2.775" y="1" dx="0.75" dy="0.3" layer="1"/>
 <smd name="4" x="-2.775" y="0.5" dx="0.75" dy="0.3" layer="1"/>
@@ -152,23 +150,26 @@ Industrial temp</description>
 <smd name="34" x="-1" y="2.775" dx="0.75" dy="0.3" layer="1" rot="R270"/>
 <smd name="35" x="-1.5" y="2.775" dx="0.75" dy="0.3" layer="1" rot="R270"/>
 <smd name="36" x="-2" y="2.775" dx="0.75" dy="0.3" layer="1" rot="R270"/>
-<text x="-3" y="3" size="0.635" layer="25" font="vector" ratio="24">&gt;NAME</text>
-<text x="-3" y="-4" size="0.635" layer="27" font="vector" ratio="24">&gt;VALUE</text>
-<rectangle x1="-2.2" y1="-2.2" x2="2.2" y2="2.2" layer="29"/>
-<polygon width="0.1524" layer="1">
-<vertex x="-2" y="-2"/>
-<vertex x="-2" y="1.6"/>
-<vertex x="-1.6" y="2"/>
-<vertex x="2" y="2"/>
-<vertex x="2" y="-2"/>
+<text x="-3" y="3.25" size="0.65" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-3" y="-4" size="0.65" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<smd name="PAD" x="0" y="0" dx="4.1" dy="4.1" layer="1" cream="no"/>
+<polygon width="0" layer="1">
+<vertex x="-3.15" y="2.15"/>
+<vertex x="-2.5" y="2.15"/>
+<vertex x="-2.4" y="2.05"/>
+<vertex x="-2.4" y="1.85"/>
+<vertex x="-3.15" y="1.85"/>
 </polygon>
-<polygon width="0.1524" layer="31">
-<vertex x="-2" y="-2"/>
-<vertex x="-2" y="1.6"/>
-<vertex x="-1.6" y="2"/>
-<vertex x="2" y="2"/>
-<vertex x="2" y="-2"/>
-</polygon>
+<rectangle x1="-3.25" y1="1.75" x2="-2.3" y2="2.25" layer="29"/>
+<rectangle x1="-3.15" y1="1.85" x2="-2.4" y2="2.15" layer="31"/>
+<rectangle x1="-2" y1="0.25" x2="-0.25" y2="2" layer="31"/>
+<rectangle x1="0.25" y1="0.25" x2="2" y2="2" layer="31"/>
+<rectangle x1="0.25" y1="-2" x2="2" y2="-0.25" layer="31"/>
+<rectangle x1="-2" y1="-2" x2="-0.25" y2="-0.25" layer="31"/>
+<circle x="-2.75" y="2.75" radius="0.25" width="0.127" layer="51"/>
+<wire x1="-3" y1="2.375" x2="-3" y2="3" width="0.1524" layer="21"/>
+<wire x1="-2.375" y1="3" x2="-3" y2="3" width="0.1524" layer="21"/>
+<circle x="-2.75" y="2.75" radius="0.25" width="0.127" layer="21"/>
 </package>
 <package name="LQFP48">
 <description>Based on STM PCB layout recomendations.</description>
@@ -1179,48 +1180,49 @@ Industrial temp</description>
 </packages>
 <symbols>
 <symbol name="STM32-M-36">
-<wire x1="0" y1="71.12" x2="68.58" y2="71.12" width="0.254" layer="94"/>
-<wire x1="68.58" y1="71.12" x2="68.58" y2="0" width="0.254" layer="94"/>
-<wire x1="68.58" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="71.12" width="0.254" layer="94"/>
-<text x="0" y="-2.54" size="1.9304" layer="95">&gt;NAME</text>
-<text x="0" y="71.12" size="1.9304" layer="95">&gt;VALUE</text>
-<pin name="PD0-OSC_IN" x="-5.08" y="58.42" length="middle" direction="in"/>
-<pin name="PD1-OSC_OUT" x="-5.08" y="55.88" length="middle" direction="out"/>
-<pin name="NRST" x="-5.08" y="53.34" length="middle" function="dot"/>
-<pin name="VSSA" x="-5.08" y="50.8" length="middle" direction="sup"/>
-<pin name="VDDA" x="-5.08" y="48.26" length="middle" direction="sup"/>
-<pin name="PA0-WKUP/USART2CTS/ADC0/TIM2CH1_ETR" x="-5.08" y="43.18" length="middle"/>
-<pin name="PA1-USART2RTS/ADC1/TIM2CH2" x="-5.08" y="40.64" length="middle"/>
-<pin name="PA2-USART2TX/ADC2/TIM2CH3" x="-5.08" y="38.1" length="middle"/>
-<pin name="PA3-USART2RX/ADC3/TIM2CH4" x="-5.08" y="35.56" length="middle"/>
-<pin name="PA4-SPI1NSS/ADC4/USART2CK" x="-5.08" y="33.02" length="middle"/>
-<pin name="PA5-SPI1SCK/ADC5" x="-5.08" y="30.48" length="middle"/>
-<pin name="PA6-SPI1MISO/ADC6/TIM3CH1-TIM1BKIN" x="-5.08" y="27.94" length="middle"/>
-<pin name="PA7-SPI1MOSI/ADC7/TIM3CH2-TIM1CH1N" x="-5.08" y="25.4" length="middle"/>
-<pin name="PB0-ADC8/TIM3CH3-TIM1CH2N" x="73.66" y="68.58" length="middle" rot="R180"/>
-<pin name="PB1-ADC9/TIM3CH4-TIM1CH3N" x="73.66" y="66.04" length="middle" rot="R180"/>
-<pin name="PB2/BOOT1" x="73.66" y="63.5" length="middle" rot="R180"/>
-<pin name="VSS1" x="73.66" y="33.02" length="middle" direction="sup" rot="R180"/>
-<pin name="VDD1" x="73.66" y="35.56" length="middle" direction="sup" rot="R180"/>
-<pin name="PA8-USART1CK/TIM1CH1/MCO" x="-5.08" y="20.32" length="middle"/>
-<pin name="PA9-USART1TX/TIM1CH2" x="-5.08" y="17.78" length="middle"/>
-<pin name="PA10-USART1RX/TIM1CH3" x="-5.08" y="15.24" length="middle"/>
-<pin name="PA11-USART1CTS/CANRX/USBDM/TIM1CH4" x="-5.08" y="12.7" length="middle"/>
-<pin name="PA12-USART1RTS/CANTX/USBDP/TIM1ETR" x="-5.08" y="10.16" length="middle"/>
-<pin name="PA13-JTMS/SWDIO" x="-5.08" y="7.62" length="middle"/>
-<pin name="VSS2" x="73.66" y="30.48" length="middle" direction="sup" rot="R180"/>
-<pin name="VDD2" x="73.66" y="38.1" length="middle" direction="sup" rot="R180"/>
-<pin name="PA14-JTCK/SWCLK" x="-5.08" y="5.08" length="middle"/>
-<pin name="PA15-JTDI-TIM2CH1ETR/SPI1NSS" x="-5.08" y="2.54" length="middle"/>
-<pin name="PB3/JTDO-TIM2CH2/TRACESWO/SPI1SCK" x="73.66" y="60.96" length="middle" rot="R180"/>
-<pin name="PB4/JNTRST-TIM3CH1/SPI1MISO" x="73.66" y="58.42" length="middle" rot="R180"/>
-<pin name="PB5-I2C1SMBAI-TIM3CH2/SPI1MOSI" x="73.66" y="55.88" length="middle" rot="R180"/>
-<pin name="PB6-I2C1SCL/TIM4CH1-USART1TX" x="73.66" y="53.34" length="middle" rot="R180"/>
-<pin name="PB7-I2C1SDA/TIM4CH2-USART1RX" x="73.66" y="50.8" length="middle" rot="R180"/>
-<pin name="BOOT0" x="73.66" y="45.72" length="middle" direction="in" rot="R180"/>
-<pin name="VSS3" x="73.66" y="27.94" length="middle" direction="sup" rot="R180"/>
-<pin name="VDD3" x="73.66" y="40.64" length="middle" direction="sup" rot="R180"/>
+<wire x1="-35.56" y1="35.56" x2="33.02" y2="35.56" width="0.254" layer="94"/>
+<wire x1="33.02" y1="35.56" x2="33.02" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-35.56" x2="-35.56" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="-35.56" y1="-35.56" x2="-35.56" y2="35.56" width="0.254" layer="94"/>
+<text x="-35.56" y="-38.1" size="1.9304" layer="95">&gt;NAME</text>
+<text x="-35.56" y="35.56" size="1.9304" layer="95">&gt;VALUE</text>
+<pin name="PD0-OSCIN-CANRX" x="-40.64" y="22.86" length="middle"/>
+<pin name="PD1-OSCOUT-CANTX" x="-40.64" y="20.32" length="middle"/>
+<pin name="NRST" x="-40.64" y="17.78" length="middle" function="dot"/>
+<pin name="VSSA" x="-40.64" y="15.24" length="middle" direction="pwr"/>
+<pin name="VDDA" x="-40.64" y="12.7" length="middle" direction="pwr"/>
+<pin name="PA0-WKUP/USART2CTS/ADC0/TIM2CH1_ETR" x="-40.64" y="7.62" length="middle"/>
+<pin name="PA1-USART2RTS/ADC1/TIM2CH2" x="-40.64" y="5.08" length="middle"/>
+<pin name="PA2-USART2TX/ADC2/TIM2CH3" x="-40.64" y="2.54" length="middle"/>
+<pin name="PA3-USART2RX/ADC3/TIM2CH4" x="-40.64" y="0" length="middle"/>
+<pin name="PA4-SPI1NSS/ADC4/USART2CK" x="-40.64" y="-2.54" length="middle"/>
+<pin name="PA5-SPI1SCK/ADC5" x="-40.64" y="-5.08" length="middle"/>
+<pin name="PA6-SPI1MISO/ADC6/TIM3CH1-TIM1BKIN" x="-40.64" y="-7.62" length="middle"/>
+<pin name="PA7-SPI1MOSI/ADC7/TIM3CH2-TIM1CH1N" x="-40.64" y="-10.16" length="middle"/>
+<pin name="PB0-ADC8/TIM3CH3-TIM1CH2N" x="38.1" y="33.02" length="middle" rot="R180"/>
+<pin name="PB1-ADC9/TIM3CH4-TIM1CH3N" x="38.1" y="30.48" length="middle" rot="R180"/>
+<pin name="PB2/BOOT1" x="38.1" y="27.94" length="middle" rot="R180"/>
+<pin name="VSS1" x="38.1" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD1" x="38.1" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="PA8-USART1CK/TIM1CH1/MCO" x="-40.64" y="-15.24" length="middle"/>
+<pin name="PA9-USART1TX/TIM1CH2" x="-40.64" y="-17.78" length="middle"/>
+<pin name="PA10-USART1RX/TIM1CH3" x="-40.64" y="-20.32" length="middle"/>
+<pin name="PA11-USART1CTS/CANRX/USBDM/TIM1CH4" x="-40.64" y="-22.86" length="middle"/>
+<pin name="PA12-USART1RTS/CANTX/USBDP/TIM1ETR" x="-40.64" y="-25.4" length="middle"/>
+<pin name="PA13-JTMS/SWDIO" x="-40.64" y="-27.94" length="middle"/>
+<pin name="VSS2" x="38.1" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD2" x="38.1" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="PA14-JTCK/SWCLK" x="-40.64" y="-30.48" length="middle"/>
+<pin name="PA15-JTDI-TIM2CH1ETR/SPI1NSS" x="-40.64" y="-33.02" length="middle"/>
+<pin name="PB3/JTDO-TIM2CH2/TRACESWO/SPI1SCK" x="38.1" y="25.4" length="middle" rot="R180"/>
+<pin name="PB4/JNTRST-TIM3CH1/SPI1MISO" x="38.1" y="22.86" length="middle" rot="R180"/>
+<pin name="PB5-I2C1SMBAI-TIM3CH2/SPI1MOSI" x="38.1" y="20.32" length="middle" rot="R180"/>
+<pin name="PB6-I2C1SCL/TIM4CH1-USART1TX" x="38.1" y="17.78" length="middle" rot="R180"/>
+<pin name="PB7-I2C1SDA/TIM4CH2-USART1RX" x="38.1" y="15.24" length="middle" rot="R180"/>
+<pin name="BOOT0" x="38.1" y="10.16" length="middle" direction="in" rot="R180"/>
+<pin name="VSS3" x="38.1" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD3" x="38.1" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="PAD" x="20.32" y="-40.64" length="middle" direction="nc" rot="R90"/>
 </symbol>
 <symbol name="STM32F102CBT6">
 <wire x1="-5.08" y1="22.86" x2="96.52" y2="22.86" width="0.254" layer="94"/>
@@ -2016,7 +2018,7 @@ Industrial temp</description>
 <deviceset name="STM32-M-36" prefix="IC">
 <description>STM32F103 Medium Density 36 Pins</description>
 <gates>
-<gate name="G$1" symbol="STM32-M-36" x="-33.02" y="-35.56"/>
+<gate name="G$1" symbol="STM32-M-36" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="VFQFPN36-LP">
@@ -2039,6 +2041,7 @@ Industrial temp</description>
 <connect gate="G$1" pin="PA7-SPI1MOSI/ADC7/TIM3CH2-TIM1CH1N" pad="14"/>
 <connect gate="G$1" pin="PA8-USART1CK/TIM1CH1/MCO" pad="20"/>
 <connect gate="G$1" pin="PA9-USART1TX/TIM1CH2" pad="21"/>
+<connect gate="G$1" pin="PAD" pad="PAD"/>
 <connect gate="G$1" pin="PB0-ADC8/TIM3CH3-TIM1CH2N" pad="15"/>
 <connect gate="G$1" pin="PB1-ADC9/TIM3CH4-TIM1CH3N" pad="16"/>
 <connect gate="G$1" pin="PB2/BOOT1" pad="17"/>
@@ -2047,8 +2050,8 @@ Industrial temp</description>
 <connect gate="G$1" pin="PB5-I2C1SMBAI-TIM3CH2/SPI1MOSI" pad="32"/>
 <connect gate="G$1" pin="PB6-I2C1SCL/TIM4CH1-USART1TX" pad="33"/>
 <connect gate="G$1" pin="PB7-I2C1SDA/TIM4CH2-USART1RX" pad="34"/>
-<connect gate="G$1" pin="PD0-OSC_IN" pad="2"/>
-<connect gate="G$1" pin="PD1-OSC_OUT" pad="3"/>
+<connect gate="G$1" pin="PD0-OSCIN-CANRX" pad="2"/>
+<connect gate="G$1" pin="PD1-OSCOUT-CANTX" pad="3"/>
 <connect gate="G$1" pin="VDD1" pad="19"/>
 <connect gate="G$1" pin="VDD2" pad="27"/>
 <connect gate="G$1" pin="VDD3" pad="1"/>
