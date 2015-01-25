@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -778,6 +778,43 @@
 <vertex x="-6" y="-1.8" curve="-90"/>
 </polygon>
 </package>
+<package name="QFN-16">
+<smd name="1" x="-1.475" y="0.75" dx="0.3" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="2" x="-1.475" y="0.25" dx="0.3" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="-1.475" y="-0.25" dx="0.3" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-1.475" y="-0.75" dx="0.3" dy="0.75" layer="1" roundness="100" rot="R90"/>
+<smd name="5" x="-0.75" y="-1.475" dx="0.3" dy="0.75" layer="1" roundness="100" rot="R180"/>
+<smd name="6" x="-0.25" y="-1.475" dx="0.3" dy="0.75" layer="1" roundness="100" rot="R180"/>
+<smd name="7" x="0.25" y="-1.475" dx="0.3" dy="0.75" layer="1" roundness="100" rot="R180"/>
+<smd name="8" x="0.75" y="-1.475" dx="0.3" dy="0.75" layer="1" roundness="100" rot="R180"/>
+<smd name="9" x="1.475" y="-0.75" dx="0.3" dy="0.75" layer="1" roundness="100" rot="R270"/>
+<smd name="10" x="1.475" y="-0.25" dx="0.3" dy="0.75" layer="1" roundness="100" rot="R270"/>
+<smd name="11" x="1.475" y="0.25" dx="0.3" dy="0.75" layer="1" roundness="100" rot="R270"/>
+<smd name="12" x="1.475" y="0.75" dx="0.3" dy="0.75" layer="1" roundness="100" rot="R270"/>
+<smd name="13" x="0.75" y="1.475" dx="0.3" dy="0.75" layer="1" roundness="100"/>
+<smd name="14" x="0.25" y="1.475" dx="0.3" dy="0.75" layer="1" roundness="100"/>
+<smd name="15" x="-0.25" y="1.475" dx="0.3" dy="0.75" layer="1" roundness="100"/>
+<smd name="16" x="-0.75" y="1.475" dx="0.3" dy="0.75" layer="1" roundness="100"/>
+<wire x1="-1.5" y1="1.1" x2="-1.1" y2="1.5" width="0.15" layer="51"/>
+<wire x1="-1.1" y1="1.5" x2="1.5" y2="1.5" width="0.15" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.15" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.15" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.1" width="0.15" layer="51"/>
+<wire x1="-1.5" y1="1.1" x2="-1.1" y2="1.5" width="0.15" layer="21"/>
+<wire x1="1.1" y1="1.5" x2="1.5" y2="1.5" width="0.15" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="1.1" width="0.15" layer="21"/>
+<wire x1="1.5" y1="-1.1" x2="1.5" y2="-1.5" width="0.15" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.1" y2="-1.5" width="0.15" layer="21"/>
+<wire x1="-1.5" y1="-1.1" x2="-1.5" y2="-1.5" width="0.15" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.1" y2="-1.5" width="0.15" layer="21"/>
+<smd name="EP" x="0" y="0" dx="1.8" dy="1.8" layer="1" cream="no"/>
+<text x="-1.475" y="2.1" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-1.525" y="-2.7" size="0.635" layer="27" font="vector" ratio="16">&gt;VALUE</text>
+<rectangle x1="-0.8" y1="0.1" x2="-0.1" y2="0.8" layer="31"/>
+<rectangle x1="0.1" y1="-0.8" x2="0.8" y2="-0.1" layer="31"/>
+<rectangle x1="0.1" y1="0.1" x2="0.8" y2="0.8" layer="31"/>
+<rectangle x1="-0.8" y1="-0.8" x2="-0.1" y2="-0.1" layer="31"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MCP130">
@@ -912,6 +949,29 @@
 <pin name="D-" x="-5.08" y="2.54" visible="pin" length="short"/>
 <pin name="VBUS" x="-5.08" y="0" visible="pin" length="short"/>
 <pin name="GND" x="-5.08" y="-2.54" visible="pin" length="short"/>
+</symbol>
+<symbol name="MCP1632">
+<pin name="VIN@1" x="-20.32" y="10.16" length="middle"/>
+<pin name="VIN@2" x="-20.32" y="7.62" length="middle"/>
+<pin name="VIN@3" x="-20.32" y="5.08" length="middle"/>
+<pin name="EN" x="-20.32" y="-7.62" length="middle"/>
+<pin name="SGND" x="-5.08" y="-20.32" length="middle" rot="R90"/>
+<pin name="PGND@1" x="0" y="-20.32" length="middle" rot="R90"/>
+<pin name="PGND@2" x="2.54" y="-20.32" length="middle" rot="R90"/>
+<pin name="PG" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="VFB" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="SW@1" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="BOOST" x="0" y="20.32" length="middle" rot="R270"/>
+<pin name="SW@2" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="SW@3" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="SW@4" x="20.32" y="2.54" length="middle" rot="R180"/>
+<wire x1="-15.24" y1="15.24" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
+<pin name="NC@1" x="7.62" y="-15.24" length="point" rot="R90"/>
+<pin name="NC@2" x="10.16" y="-15.24" length="point" rot="R90"/>
+<pin name="EP" x="-10.16" y="-20.32" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1193,6 +1253,37 @@
 <connect gate="G$1" pin="D-" pad="2"/>
 <connect gate="G$1" pin="GND" pad="4"/>
 <connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP1632" prefix="IC">
+<gates>
+<gate name="G$1" symbol="MCP1632" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN-16">
+<connects>
+<connect gate="G$1" pin="BOOST" pad="10"/>
+<connect gate="G$1" pin="EN" pad="9"/>
+<connect gate="G$1" pin="EP" pad="EP"/>
+<connect gate="G$1" pin="NC@1" pad="6"/>
+<connect gate="G$1" pin="NC@2" pad="7"/>
+<connect gate="G$1" pin="PG" pad="8"/>
+<connect gate="G$1" pin="PGND@1" pad="14"/>
+<connect gate="G$1" pin="PGND@2" pad="15"/>
+<connect gate="G$1" pin="SGND" pad="4"/>
+<connect gate="G$1" pin="SW@1" pad="1"/>
+<connect gate="G$1" pin="SW@2" pad="12"/>
+<connect gate="G$1" pin="SW@3" pad="13"/>
+<connect gate="G$1" pin="SW@4" pad="16"/>
+<connect gate="G$1" pin="VFB" pad="5"/>
+<connect gate="G$1" pin="VIN@1" pad="2"/>
+<connect gate="G$1" pin="VIN@2" pad="3"/>
+<connect gate="G$1" pin="VIN@3" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
