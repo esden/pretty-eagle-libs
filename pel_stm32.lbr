@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -69,7 +69,7 @@
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
@@ -2697,6 +2697,198 @@ As well as our requirements from PCBCart to use 0.2mm via with 0.1mm annular rin
 <pin name="PB7-I2C1SDA/USART1RX/TIM17CH1N" x="43.18" y="15.24" length="middle" rot="R180"/>
 <pin name="BOOT0" x="43.18" y="10.16" length="middle" direction="in" rot="R180"/>
 </symbol>
+<symbol name="STM32F437VXTX">
+<wire x1="-66.04" y1="78.74" x2="66.04" y2="78.74" width="0.254" layer="94"/>
+<wire x1="66.04" y1="78.74" x2="66.04" y2="-71.12" width="0.254" layer="94"/>
+<wire x1="66.04" y1="-71.12" x2="-66.04" y2="-71.12" width="0.254" layer="94"/>
+<wire x1="-66.04" y1="-71.12" x2="-66.04" y2="78.74" width="0.254" layer="94"/>
+<text x="-66.04" y="-73.66" size="1.9304" layer="95">&gt;NAME</text>
+<text x="-66.04" y="78.74" size="1.9304" layer="95">&gt;VALUE</text>
+<pin name="VBAT" x="-71.12" y="76.2" length="middle" direction="pwr"/>
+<pin name="PC13--TAMP1" x="-71.12" y="73.66" length="middle"/>
+<pin name="PC14-OSC32_IN" x="-71.12" y="71.12" length="middle"/>
+<pin name="PC15-OSC32_OUT" x="-71.12" y="68.58" length="middle"/>
+<pin name="PH0-OSC_IN" x="-71.12" y="66.04" length="middle" direction="in"/>
+<pin name="PH1-OSC_OUT" x="-71.12" y="63.5" length="middle"/>
+<pin name="NRST" x="-71.12" y="60.96" length="middle" function="dot"/>
+<pin name="VSSA" x="-71.12" y="58.42" length="middle" direction="pwr"/>
+<pin name="VDDA" x="-71.12" y="55.88" length="middle" direction="pwr"/>
+<pin name="PA0-WKUP-T2C1/T2E/T5C1/T8E/U2CTS/U4TX/MIICRS-ADC0" x="-71.12" y="40.64" length="middle"/>
+<pin name="PA1-T2C2/T5C2/U2RTS/U4RX/MIIRXCLK/RMIIREFCLK-ADC1" x="-71.12" y="38.1" length="middle"/>
+<pin name="PA2-T2C3/T5C3/T9C1/U2TX/ETHMDIO-ADC2" x="-71.12" y="35.56" length="middle"/>
+<pin name="PA3-T2C4/T5C4/T9C2/U2RX/ULPID0/MIICOL/LCDB5-ADC3" x="-71.12" y="33.02" length="middle"/>
+<pin name="PA4-S1NSS/S3NSS/I2S3WS/U2CK/OTGHSSOF/DCMIHSYNC/LCDVSYNC-ADC4/DAC1" x="-71.12" y="30.48" length="middle"/>
+<pin name="PA5-T2C1/T2ETR/T8C1N/S1SCK/ULPICK-ADC5/DAC2" x="-71.12" y="27.94" length="middle"/>
+<pin name="PA6-T1BKIN/T3C1/T8BKIN/S1MISO/T13C1/DCMIPIXCLK/LCDG2-ADC6" x="-71.12" y="25.4" length="middle"/>
+<pin name="PA7-T1C1N/T3C2/T8C1N/S1MOSI/T14C1/MIIRXDV/RMIICRSDV-ADC7" x="-71.12" y="22.86" length="middle"/>
+<pin name="PB0-T1C2N/T3C3/T8C2N/LCDR3/ULPID1/MIIRXD2-ADC8" x="71.12" y="76.2" length="middle" rot="R180"/>
+<pin name="PB1-T1C3N/T3C4/T8C3N/LCDR6/ULPID2/MIIRXD3-ADC9" x="71.12" y="73.66" length="middle" rot="R180"/>
+<pin name="PB2/BOOT1" x="71.12" y="71.12" length="middle" rot="R180"/>
+<pin name="PB10-T2C3/I2C2SCL/S2SCK/I2S2CK/U3TX/ULPID3/MIIRXER/LCDG4" x="71.12" y="10.16" length="middle" rot="R180"/>
+<pin name="PB11-T2C4/I2C2SDA/U3RX/ULPID4/(R)MIITXEN/LCDG5" x="71.12" y="7.62" length="middle" rot="R180"/>
+<pin name="VSS1" x="71.12" y="33.02" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD1" x="71.12" y="35.56" length="middle" direction="pwr" rot="R180"/>
+<pin name="PB12-T1BKIN/I2C2SMBA/S2NSS/I2S2WS/U3CK/CAN2RX/ULPID5/(R)MIITXD0/OTGHSID" x="71.12" y="5.08" length="middle" rot="R180"/>
+<pin name="PB13-T1C1N/S2SCK/I2S2CK/U3CTS/CAN2TX/ULPID6/(R)MIITXD1-OTGHSVBUS" x="71.12" y="2.54" length="middle" rot="R180"/>
+<pin name="PB14-T1C2N/T8C2N/S2MISO/I2S2EXTSD/U3RTS/T12C1/OTGHSDM" x="71.12" y="0" length="middle" rot="R180"/>
+<pin name="PB15-RTCREFIN/T1C3N/T8C3N/S2MOSI/I2S2SD/T12C2/OTGHSDP" x="71.12" y="-2.54" length="middle" rot="R180"/>
+<pin name="PA8-MCO1/T1C1/I2C3SCL/U1CK/OTGFSSOF/LCDR6" x="-71.12" y="17.78" length="middle"/>
+<pin name="PA9-T1C2/I2C3SMBA/U1TX/DCMID0-OTGFSVBUS" x="-71.12" y="15.24" length="middle"/>
+<pin name="PA10-T1C3/U1RX/OTGFSID/DCMID1" x="-71.12" y="12.7" length="middle"/>
+<pin name="PA11-T1C4/U1CTS/CAN1RX/LCDR4/OTGFSDM" x="-71.12" y="10.16" length="middle"/>
+<pin name="PA12-T1ETR/U1RTS/CAN1TX/LCDR5/OTGFSDP" x="-71.12" y="7.62" length="middle"/>
+<pin name="PA13/JTMS/SWDIO" x="-71.12" y="5.08" length="middle"/>
+<pin name="VCAP1" x="71.12" y="30.48" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD2" x="71.12" y="38.1" length="middle" direction="pwr" rot="R180"/>
+<pin name="PA14/JTCK/SWCLK" x="-71.12" y="2.54" length="middle"/>
+<pin name="PA15/JTDI-T2C1/T2ETR/S1NSS/S3NSS/I2S3WS" x="-71.12" y="0" length="middle"/>
+<pin name="PB3/JTDO/TRACESWO-T2C2/S1SCK/S3SCK/I2S3CK" x="71.12" y="68.58" length="middle" rot="R180"/>
+<pin name="PB4/JNTRST-T3C1/S1MISO/S3MISO/I2S3EXTSD" x="71.12" y="66.04" length="middle" rot="R180"/>
+<pin name="PB5-T3C2/I2C1SMBA/S1MOSI/S3MOSI/I2S3SD/CAN2RX/ULPID7/ETHPPSOUT/FMCSDCKE1/DCMID10" x="71.12" y="63.5" length="middle" rot="R180"/>
+<pin name="PB6-T4C1/I2C1SCL/U1TX/CAN2TX/FMCSDNE1/DCMID5" x="71.12" y="60.96" length="middle" rot="R180"/>
+<pin name="PB7-T4C2/I2C1SDA/U1RX/FMCNL/DCMIVSYNC" x="71.12" y="58.42" length="middle" rot="R180"/>
+<pin name="BOOT0" x="71.12" y="53.34" length="middle" direction="in" rot="R180"/>
+<pin name="PB8-T4C3/T10C1/I2C1SCL/CAN1RX/MIITXD/SDIOD4/DCMID6/LCDB6" x="71.12" y="15.24" length="middle" rot="R180"/>
+<pin name="PB9-T4C4/T11C1/I2C1SDA/S2NSS/I2S2WS/CAN1TX/SDIOD5/DCMID7/LCDB7" x="71.12" y="12.7" length="middle" rot="R180"/>
+<pin name="VSS3" x="71.12" y="27.94" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD3" x="71.12" y="40.64" length="middle" direction="pwr" rot="R180"/>
+<pin name="PC0-ULPISTP/FMCSDNWE-ADC10" x="-71.12" y="-5.08" length="middle"/>
+<pin name="PC1-ETHMDC-ADC11" x="-71.12" y="-7.62" length="middle"/>
+<pin name="PC2-S2MISO/I2S2EXTSD/ULPIDIR/MIITXD2/FMCSDNE0-ADC12" x="-71.12" y="-10.16" length="middle"/>
+<pin name="PC3-S2MOSI/I2S2SD/ULPINXT/MIITXCLK/FMCSDNE0-ADC13" x="-71.12" y="-12.7" length="middle"/>
+<pin name="PC4-(R)MIIRXD0-ADC14" x="-71.12" y="-15.24" length="middle"/>
+<pin name="PC5-(R)MIIRXD1-ADC15" x="-71.12" y="-17.78" length="middle"/>
+<pin name="PC6-T3C1/T8C1/I2S2MCK/U6TX/SDIOD6/DCMID0/LCDHSYNC" x="-71.12" y="-20.32" length="middle"/>
+<pin name="PC7-T3C2/T8C2/I2S3MCK/U6RX/SDIOD7/DCMID1/LCDG6" x="-71.12" y="-22.86" length="middle"/>
+<pin name="PC8-T3C3/T8C3/U6CK/SDIOD0/DCMID2" x="71.12" y="-7.62" length="middle" rot="R180"/>
+<pin name="PC9-MCO2/T3C4/T8C4/I2C3SDA/I2SCKIN/SDIOD1/DCMID3" x="71.12" y="-10.16" length="middle" rot="R180"/>
+<pin name="PC10-S3SCK/I2S3CK/U3TX/U4TX/SDIOD2/DCMID8/LCDR2" x="71.12" y="-12.7" length="middle" rot="R180"/>
+<pin name="PC11-I2S3EXTSD/S3MISO/U3RX/U4RX/SDIOD3/DCMID4" x="71.12" y="-15.24" length="middle" rot="R180"/>
+<pin name="PC12-S3MOSI/I2S3SD/U3CK/U5TX/SDIOCK/DCMID9" x="71.12" y="-17.78" length="middle" rot="R180"/>
+<pin name="PD2-T3ETR/U5RX/SDIOCMD/DCMID11" x="-71.12" y="-33.02" length="middle"/>
+<pin name="VDD4" x="71.12" y="43.18" length="middle" direction="pwr" rot="R180"/>
+<pin name="VCAP2" x="71.12" y="25.4" length="middle" direction="pwr" rot="R180"/>
+<pin name="VREF+" x="-71.12" y="50.8" length="middle"/>
+<pin name="VSS5" x="71.12" y="22.86" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD5" x="71.12" y="45.72" length="middle" direction="pwr" rot="R180"/>
+<pin name="PE0-T4ETR/U8RX/FMCNBL0/DCMID2" x="-71.12" y="-50.8" length="middle"/>
+<pin name="PE1-U8TX/FMCNBL1/DCMID3" x="-71.12" y="-53.34" length="middle"/>
+<pin name="PE2-TRACK/S4SCK/SAI1MCLKA/MIITXD4/FMCA23" x="-71.12" y="-55.88" length="middle"/>
+<pin name="PE3-TRAD0/SAI1SDB/FMCA19" x="-71.12" y="-58.42" length="middle"/>
+<pin name="PE4-TRAD1/S4NSS/SAI11FSA/FMCA20/DCMID4/LCDB0" x="-71.12" y="-60.96" length="middle"/>
+<pin name="PE5-TRAD2/T9C1/S4MISO/SAI1SCKA/FMCA21/DCMID6/LCDG0" x="-71.12" y="-63.5" length="middle"/>
+<pin name="PE6-TRAD3/T9C2/S4MOSI/SAI1SDA/FMCA22/DCMID7/LCDG1" x="-71.12" y="-66.04" length="middle"/>
+<pin name="PE7-T1ETR/U7RX/FMCD4" x="-71.12" y="-68.58" length="middle"/>
+<pin name="PE8-T1C1N/U7TX/FMCD5" x="71.12" y="-50.8" length="middle" rot="R180"/>
+<pin name="PE9-T1C1/FMCD6" x="71.12" y="-53.34" length="middle" rot="R180"/>
+<pin name="PE10-T1C2N/FMCD7" x="71.12" y="-55.88" length="middle" rot="R180"/>
+<pin name="PE11-T1C2/S4NSS/FMCD8/LCDG3" x="71.12" y="-58.42" length="middle" rot="R180"/>
+<pin name="PE12-T1C3N/S4SCK/FMCD9/LCDB4" x="71.12" y="-60.96" length="middle" rot="R180"/>
+<pin name="PE13-T1C3/S4MISO/FMCD10/LCDDE" x="71.12" y="-63.5" length="middle" rot="R180"/>
+<pin name="PE14-T1C4/S4MOSI/FMCD11/LCDCLK" x="71.12" y="-66.04" length="middle" rot="R180"/>
+<pin name="PE15-T1BKIN/FMCD12/LCDR7" x="71.12" y="-68.58" length="middle" rot="R180"/>
+<pin name="PD8-U3TX/FMCD13" x="71.12" y="-27.94" length="middle" rot="R180"/>
+<pin name="PD9-U3RX/FMCD14" x="71.12" y="-30.48" length="middle" rot="R180"/>
+<pin name="PD10-U3CK/FMCD15/LCDB3" x="71.12" y="-33.02" length="middle" rot="R180"/>
+<pin name="PD12-T4C1/U3RTS/FMCA17" x="71.12" y="-38.1" length="middle" rot="R180"/>
+<pin name="PD11-U3CTS/FMCA16" x="71.12" y="-35.56" length="middle" rot="R180"/>
+<pin name="PD13-T4C2/FMCA18" x="71.12" y="-40.64" length="middle" rot="R180"/>
+<pin name="PD14-T4C3/FMCD0" x="71.12" y="-43.18" length="middle" rot="R180"/>
+<pin name="PD15-T4C4/FMCD1" x="71.12" y="-45.72" length="middle" rot="R180"/>
+<pin name="PD0-CAN1RX/FMCD2" x="-71.12" y="-27.94" length="middle"/>
+<pin name="PD1-CAN1TX/FMCD3" x="-71.12" y="-30.48" length="middle"/>
+<pin name="PD3-S2SCK/I2S2CK/U2CTS/FMCCLK/DCMID5/LCDG7" x="-71.12" y="-35.56" length="middle"/>
+<pin name="PD4-U2RTS/FMCNOE" x="-71.12" y="-38.1" length="middle"/>
+<pin name="PD5-U2TX/FMCNWE" x="-71.12" y="-40.64" length="middle"/>
+<pin name="PD6-S3MOSI/I2S3SD/SAI1SDA/U2RX/FMCNWAIT/DCMID10/LCDB2" x="-71.12" y="-43.18" length="middle"/>
+<pin name="PD7-U2CK/FMCNE1/FMCNCE2" x="-71.12" y="-45.72" length="middle"/>
+<text x="-66.04" y="73.66" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="71.12" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="68.58" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="66.04" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="63.5" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-55.88" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-58.42" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-60.96" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-63.5" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-66.04" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-64.262" y="62.738" size="1.27" layer="95" rot="MR270">RST</text>
+<text x="-66.04" y="40.64" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="38.1" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="35.56" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="33.02" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="25.4" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="22.86" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="17.78" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="15.24" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="12.7" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="10.16" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="7.62" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="5.08" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="2.54" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="0" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-5.08" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-7.62" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-10.16" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-12.7" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-15.24" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-17.78" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-20.32" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-22.86" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-27.94" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-30.48" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-33.02" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-35.56" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-38.1" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-40.64" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-43.18" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-45.72" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-50.8" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-53.34" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="-66.04" y="-68.58" size="1.27" layer="95" rot="MR0">FT</text>
+<text x="66.04" y="76.2" size="1.27" layer="95">FT</text>
+<text x="66.04" y="73.66" size="1.27" layer="95">FT</text>
+<text x="66.04" y="71.12" size="1.27" layer="95">FT</text>
+<text x="66.04" y="68.58" size="1.27" layer="95">FT</text>
+<text x="66.04" y="66.04" size="1.27" layer="95">FT</text>
+<text x="66.04" y="63.5" size="1.27" layer="95">FT</text>
+<text x="66.04" y="60.96" size="1.27" layer="95">FT</text>
+<text x="66.04" y="58.42" size="1.27" layer="95">FT</text>
+<text x="66.04" y="15.24" size="1.27" layer="95">FT</text>
+<text x="66.04" y="12.7" size="1.27" layer="95">FT</text>
+<text x="66.04" y="10.16" size="1.27" layer="95">FT</text>
+<text x="66.04" y="7.62" size="1.27" layer="95">FT</text>
+<text x="66.04" y="5.08" size="1.27" layer="95">FT</text>
+<text x="66.04" y="2.54" size="1.27" layer="95">FT</text>
+<text x="66.04" y="0" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-2.54" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-7.62" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-10.16" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-12.7" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-15.24" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-17.78" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-27.94" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-30.48" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-33.02" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-35.56" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-38.1" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-40.64" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-43.18" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-45.72" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-50.8" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-53.34" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-55.88" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-58.42" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-60.96" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-63.5" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-68.58" size="1.27" layer="95">FT</text>
+<text x="66.04" y="-66.04" size="1.27" layer="95">FT</text>
+<text x="66.04" y="53.34" size="1.27" layer="95">B</text>
+<text x="-66.04" y="30.48" size="1.27" layer="95" rot="MR0">TTa</text>
+<text x="-66.04" y="27.94" size="1.27" layer="95" rot="MR0">TTa</text>
+<pin name="VDD6" x="71.12" y="48.26" length="middle" direction="pwr" rot="R180"/>
+<pin name="VSS6" x="71.12" y="20.32" length="middle" direction="pwr" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="STM32-M-36" prefix="IC">
@@ -3659,6 +3851,120 @@ As well as our requirements from PCBCart to use 0.2mm via with 0.1mm annular rin
 <connect gate="G$1" pin="VDDA" pad="5"/>
 <connect gate="G$1" pin="VSS1" pad="16"/>
 <connect gate="G$1" pin="VSS2" pad="32"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STM32F437VXTX" prefix="IC">
+<gates>
+<gate name="G$1" symbol="STM32F437VXTX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LQFP100">
+<connects>
+<connect gate="G$1" pin="BOOT0" pad="94"/>
+<connect gate="G$1" pin="NRST" pad="14"/>
+<connect gate="G$1" pin="PA0-WKUP-T2C1/T2E/T5C1/T8E/U2CTS/U4TX/MIICRS-ADC0" pad="23"/>
+<connect gate="G$1" pin="PA1-T2C2/T5C2/U2RTS/U4RX/MIIRXCLK/RMIIREFCLK-ADC1" pad="24"/>
+<connect gate="G$1" pin="PA10-T1C3/U1RX/OTGFSID/DCMID1" pad="69"/>
+<connect gate="G$1" pin="PA11-T1C4/U1CTS/CAN1RX/LCDR4/OTGFSDM" pad="70"/>
+<connect gate="G$1" pin="PA12-T1ETR/U1RTS/CAN1TX/LCDR5/OTGFSDP" pad="71"/>
+<connect gate="G$1" pin="PA13/JTMS/SWDIO" pad="72"/>
+<connect gate="G$1" pin="PA14/JTCK/SWCLK" pad="76"/>
+<connect gate="G$1" pin="PA15/JTDI-T2C1/T2ETR/S1NSS/S3NSS/I2S3WS" pad="77"/>
+<connect gate="G$1" pin="PA2-T2C3/T5C3/T9C1/U2TX/ETHMDIO-ADC2" pad="25"/>
+<connect gate="G$1" pin="PA3-T2C4/T5C4/T9C2/U2RX/ULPID0/MIICOL/LCDB5-ADC3" pad="26"/>
+<connect gate="G$1" pin="PA4-S1NSS/S3NSS/I2S3WS/U2CK/OTGHSSOF/DCMIHSYNC/LCDVSYNC-ADC4/DAC1" pad="29"/>
+<connect gate="G$1" pin="PA5-T2C1/T2ETR/T8C1N/S1SCK/ULPICK-ADC5/DAC2" pad="30"/>
+<connect gate="G$1" pin="PA6-T1BKIN/T3C1/T8BKIN/S1MISO/T13C1/DCMIPIXCLK/LCDG2-ADC6" pad="31"/>
+<connect gate="G$1" pin="PA7-T1C1N/T3C2/T8C1N/S1MOSI/T14C1/MIIRXDV/RMIICRSDV-ADC7" pad="32"/>
+<connect gate="G$1" pin="PA8-MCO1/T1C1/I2C3SCL/U1CK/OTGFSSOF/LCDR6" pad="67"/>
+<connect gate="G$1" pin="PA9-T1C2/I2C3SMBA/U1TX/DCMID0-OTGFSVBUS" pad="68"/>
+<connect gate="G$1" pin="PB0-T1C2N/T3C3/T8C2N/LCDR3/ULPID1/MIIRXD2-ADC8" pad="35"/>
+<connect gate="G$1" pin="PB1-T1C3N/T3C4/T8C3N/LCDR6/ULPID2/MIIRXD3-ADC9" pad="36"/>
+<connect gate="G$1" pin="PB10-T2C3/I2C2SCL/S2SCK/I2S2CK/U3TX/ULPID3/MIIRXER/LCDG4" pad="47"/>
+<connect gate="G$1" pin="PB11-T2C4/I2C2SDA/U3RX/ULPID4/(R)MIITXEN/LCDG5" pad="48"/>
+<connect gate="G$1" pin="PB12-T1BKIN/I2C2SMBA/S2NSS/I2S2WS/U3CK/CAN2RX/ULPID5/(R)MIITXD0/OTGHSID" pad="51"/>
+<connect gate="G$1" pin="PB13-T1C1N/S2SCK/I2S2CK/U3CTS/CAN2TX/ULPID6/(R)MIITXD1-OTGHSVBUS" pad="52"/>
+<connect gate="G$1" pin="PB14-T1C2N/T8C2N/S2MISO/I2S2EXTSD/U3RTS/T12C1/OTGHSDM" pad="53"/>
+<connect gate="G$1" pin="PB15-RTCREFIN/T1C3N/T8C3N/S2MOSI/I2S2SD/T12C2/OTGHSDP" pad="54"/>
+<connect gate="G$1" pin="PB2/BOOT1" pad="37"/>
+<connect gate="G$1" pin="PB3/JTDO/TRACESWO-T2C2/S1SCK/S3SCK/I2S3CK" pad="89"/>
+<connect gate="G$1" pin="PB4/JNTRST-T3C1/S1MISO/S3MISO/I2S3EXTSD" pad="90"/>
+<connect gate="G$1" pin="PB5-T3C2/I2C1SMBA/S1MOSI/S3MOSI/I2S3SD/CAN2RX/ULPID7/ETHPPSOUT/FMCSDCKE1/DCMID10" pad="91"/>
+<connect gate="G$1" pin="PB6-T4C1/I2C1SCL/U1TX/CAN2TX/FMCSDNE1/DCMID5" pad="92"/>
+<connect gate="G$1" pin="PB7-T4C2/I2C1SDA/U1RX/FMCNL/DCMIVSYNC" pad="93"/>
+<connect gate="G$1" pin="PB8-T4C3/T10C1/I2C1SCL/CAN1RX/MIITXD/SDIOD4/DCMID6/LCDB6" pad="95"/>
+<connect gate="G$1" pin="PB9-T4C4/T11C1/I2C1SDA/S2NSS/I2S2WS/CAN1TX/SDIOD5/DCMID7/LCDB7" pad="96"/>
+<connect gate="G$1" pin="PC0-ULPISTP/FMCSDNWE-ADC10" pad="15"/>
+<connect gate="G$1" pin="PC1-ETHMDC-ADC11" pad="16"/>
+<connect gate="G$1" pin="PC10-S3SCK/I2S3CK/U3TX/U4TX/SDIOD2/DCMID8/LCDR2" pad="78"/>
+<connect gate="G$1" pin="PC11-I2S3EXTSD/S3MISO/U3RX/U4RX/SDIOD3/DCMID4" pad="79"/>
+<connect gate="G$1" pin="PC12-S3MOSI/I2S3SD/U3CK/U5TX/SDIOCK/DCMID9" pad="80"/>
+<connect gate="G$1" pin="PC13--TAMP1" pad="7"/>
+<connect gate="G$1" pin="PC14-OSC32_IN" pad="8"/>
+<connect gate="G$1" pin="PC15-OSC32_OUT" pad="9"/>
+<connect gate="G$1" pin="PC2-S2MISO/I2S2EXTSD/ULPIDIR/MIITXD2/FMCSDNE0-ADC12" pad="17"/>
+<connect gate="G$1" pin="PC3-S2MOSI/I2S2SD/ULPINXT/MIITXCLK/FMCSDNE0-ADC13" pad="18"/>
+<connect gate="G$1" pin="PC4-(R)MIIRXD0-ADC14" pad="33"/>
+<connect gate="G$1" pin="PC5-(R)MIIRXD1-ADC15" pad="34"/>
+<connect gate="G$1" pin="PC6-T3C1/T8C1/I2S2MCK/U6TX/SDIOD6/DCMID0/LCDHSYNC" pad="63"/>
+<connect gate="G$1" pin="PC7-T3C2/T8C2/I2S3MCK/U6RX/SDIOD7/DCMID1/LCDG6" pad="64"/>
+<connect gate="G$1" pin="PC8-T3C3/T8C3/U6CK/SDIOD0/DCMID2" pad="65"/>
+<connect gate="G$1" pin="PC9-MCO2/T3C4/T8C4/I2C3SDA/I2SCKIN/SDIOD1/DCMID3" pad="66"/>
+<connect gate="G$1" pin="PD0-CAN1RX/FMCD2" pad="81"/>
+<connect gate="G$1" pin="PD1-CAN1TX/FMCD3" pad="82"/>
+<connect gate="G$1" pin="PD10-U3CK/FMCD15/LCDB3" pad="57"/>
+<connect gate="G$1" pin="PD11-U3CTS/FMCA16" pad="58"/>
+<connect gate="G$1" pin="PD12-T4C1/U3RTS/FMCA17" pad="59"/>
+<connect gate="G$1" pin="PD13-T4C2/FMCA18" pad="60"/>
+<connect gate="G$1" pin="PD14-T4C3/FMCD0" pad="61"/>
+<connect gate="G$1" pin="PD15-T4C4/FMCD1" pad="62"/>
+<connect gate="G$1" pin="PD2-T3ETR/U5RX/SDIOCMD/DCMID11" pad="83"/>
+<connect gate="G$1" pin="PD3-S2SCK/I2S2CK/U2CTS/FMCCLK/DCMID5/LCDG7" pad="84"/>
+<connect gate="G$1" pin="PD4-U2RTS/FMCNOE" pad="85"/>
+<connect gate="G$1" pin="PD5-U2TX/FMCNWE" pad="86"/>
+<connect gate="G$1" pin="PD6-S3MOSI/I2S3SD/SAI1SDA/U2RX/FMCNWAIT/DCMID10/LCDB2" pad="87"/>
+<connect gate="G$1" pin="PD7-U2CK/FMCNE1/FMCNCE2" pad="88"/>
+<connect gate="G$1" pin="PD8-U3TX/FMCD13" pad="55"/>
+<connect gate="G$1" pin="PD9-U3RX/FMCD14" pad="56"/>
+<connect gate="G$1" pin="PE0-T4ETR/U8RX/FMCNBL0/DCMID2" pad="97"/>
+<connect gate="G$1" pin="PE1-U8TX/FMCNBL1/DCMID3" pad="98"/>
+<connect gate="G$1" pin="PE10-T1C2N/FMCD7" pad="41"/>
+<connect gate="G$1" pin="PE11-T1C2/S4NSS/FMCD8/LCDG3" pad="42"/>
+<connect gate="G$1" pin="PE12-T1C3N/S4SCK/FMCD9/LCDB4" pad="43"/>
+<connect gate="G$1" pin="PE13-T1C3/S4MISO/FMCD10/LCDDE" pad="44"/>
+<connect gate="G$1" pin="PE14-T1C4/S4MOSI/FMCD11/LCDCLK" pad="45"/>
+<connect gate="G$1" pin="PE15-T1BKIN/FMCD12/LCDR7" pad="46"/>
+<connect gate="G$1" pin="PE2-TRACK/S4SCK/SAI1MCLKA/MIITXD4/FMCA23" pad="1"/>
+<connect gate="G$1" pin="PE3-TRAD0/SAI1SDB/FMCA19" pad="2"/>
+<connect gate="G$1" pin="PE4-TRAD1/S4NSS/SAI11FSA/FMCA20/DCMID4/LCDB0" pad="3"/>
+<connect gate="G$1" pin="PE5-TRAD2/T9C1/S4MISO/SAI1SCKA/FMCA21/DCMID6/LCDG0" pad="4"/>
+<connect gate="G$1" pin="PE6-TRAD3/T9C2/S4MOSI/SAI1SDA/FMCA22/DCMID7/LCDG1" pad="5"/>
+<connect gate="G$1" pin="PE7-T1ETR/U7RX/FMCD4" pad="38"/>
+<connect gate="G$1" pin="PE8-T1C1N/U7TX/FMCD5" pad="39"/>
+<connect gate="G$1" pin="PE9-T1C1/FMCD6" pad="40"/>
+<connect gate="G$1" pin="PH0-OSC_IN" pad="12"/>
+<connect gate="G$1" pin="PH1-OSC_OUT" pad="13"/>
+<connect gate="G$1" pin="VBAT" pad="6"/>
+<connect gate="G$1" pin="VCAP1" pad="49"/>
+<connect gate="G$1" pin="VCAP2" pad="73"/>
+<connect gate="G$1" pin="VDD1" pad="11"/>
+<connect gate="G$1" pin="VDD2" pad="19"/>
+<connect gate="G$1" pin="VDD3" pad="28"/>
+<connect gate="G$1" pin="VDD4" pad="50"/>
+<connect gate="G$1" pin="VDD5" pad="75"/>
+<connect gate="G$1" pin="VDD6" pad="100"/>
+<connect gate="G$1" pin="VDDA" pad="22"/>
+<connect gate="G$1" pin="VREF+" pad="21"/>
+<connect gate="G$1" pin="VSS1" pad="10"/>
+<connect gate="G$1" pin="VSS3" pad="27"/>
+<connect gate="G$1" pin="VSS5" pad="74"/>
+<connect gate="G$1" pin="VSS6" pad="99"/>
+<connect gate="G$1" pin="VSSA" pad="20"/>
 </connects>
 <technologies>
 <technology name=""/>
