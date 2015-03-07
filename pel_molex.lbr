@@ -1961,6 +1961,7 @@
 <text x="-1.7" y="-3.5" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 <package name="CM-502382-03">
+<description>Click Mate Vertical</description>
 <smd name="1" x="1.25" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
 <smd name="2" x="0" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
 <smd name="P1" x="3.1" y="-2.1" dx="1" dy="2.8" layer="1"/>
@@ -1985,6 +1986,7 @@
 <text x="-1.6" y="-3.3" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 <package name="CM-502382-04">
+<description>Click Mate Vertical</description>
 <smd name="1" x="1.875" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
 <smd name="2" x="0.625" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
 <smd name="P1" x="3.725" y="-2.1" dx="1" dy="2.8" layer="1"/>
@@ -2011,6 +2013,7 @@
 <text x="-1.7" y="-3.2" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 <package name="CM-502382-05">
+<description>Click Mate Vertical</description>
 <smd name="1" x="2.5" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
 <smd name="2" x="1.25" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
 <smd name="P1" x="4.35" y="-2.1" dx="1" dy="2.8" layer="1"/>
@@ -2039,6 +2042,7 @@
 <text x="-1.8" y="-3.1" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 <package name="CM-502382-06">
+<description>Click Mate Vertical</description>
 <smd name="1" x="3.125" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
 <smd name="2" x="1.875" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
 <smd name="P1" x="4.975" y="-2.1" dx="1" dy="2.8" layer="1"/>
@@ -2069,6 +2073,7 @@
 <text x="-1.6" y="-3.1" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 <package name="CM-502382-07">
+<description>Click Mate Vertical</description>
 <smd name="1" x="3.75" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
 <smd name="2" x="2.5" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
 <smd name="P1" x="5.6" y="-2.1" dx="1" dy="2.8" layer="1"/>
