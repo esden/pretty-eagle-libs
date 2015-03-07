@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -128,6 +128,8 @@
 <rectangle x1="-2.035" y1="0.6" x2="-1.715" y2="1.6" layer="51"/>
 <rectangle x1="0.465" y1="0.6" x2="0.785" y2="1.6" layer="51"/>
 <rectangle x1="1.715" y1="0.6" x2="2.035" y2="1.6" layer="51"/>
+<circle x="-2.9" y="1.2" radius="0.1" width="0.2" layer="51"/>
+<circle x="-2.9" y="1.2" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53261-08">
 <wire x1="-5.875" y1="0.6" x2="-5.875" y2="-0.4" width="0.1524" layer="51"/>
@@ -178,6 +180,8 @@
 <rectangle x1="-0.785" y1="0.6" x2="-0.465" y2="1.6" layer="51"/>
 <rectangle x1="0.465" y1="0.6" x2="0.785" y2="1.6" layer="51"/>
 <rectangle x1="1.715" y1="0.6" x2="2.035" y2="1.6" layer="51"/>
+<circle x="-5.4" y="1.2" radius="0.1" width="0.2" layer="51"/>
+<circle x="-5.4" y="1.2" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53261-03">
 <wire x1="-2.75" y1="0.6" x2="-2.75" y2="-0.4" width="0.1524" layer="51"/>
@@ -213,6 +217,8 @@
 <rectangle x1="-1.41" y1="0.6" x2="-1.09" y2="1.6" layer="51"/>
 <rectangle x1="-0.16" y1="0.6" x2="0.16" y2="1.6" layer="51"/>
 <rectangle x1="1.09" y1="0.6" x2="1.41" y2="1.6" layer="51"/>
+<circle x="-2.3" y="1.2" radius="0.1" width="0.2" layer="51"/>
+<circle x="-2.3" y="1.2" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53261-05">
 <wire x1="-4" y1="0.6" x2="-4" y2="-0.4" width="0.1524" layer="51"/>
@@ -254,6 +260,8 @@
 <rectangle x1="1.09" y1="0.6" x2="1.41" y2="1.6" layer="51"/>
 <rectangle x1="2.34" y1="0.6" x2="2.66" y2="1.6" layer="51"/>
 <rectangle x1="-2.66" y1="0.6" x2="-2.34" y2="1.6" layer="51"/>
+<circle x="-3.5" y="1.2" radius="0.1" width="0.2" layer="51"/>
+<circle x="-3.5" y="1.2" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53261-06">
 <wire x1="-4.625" y1="0.6" x2="-4.625" y2="-0.4" width="0.1524" layer="51"/>
@@ -298,6 +306,8 @@
 <rectangle x1="1.715" y1="0.6" x2="2.035" y2="1.6" layer="51"/>
 <rectangle x1="-3.285" y1="0.6" x2="-2.965" y2="1.6" layer="51"/>
 <rectangle x1="2.965" y1="0.6" x2="3.285" y2="1.6" layer="51"/>
+<circle x="-4.1" y="1.2" radius="0.1" width="0.2" layer="51"/>
+<circle x="-4.1" y="1.2" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53261-12">
 <wire x1="-8.375" y1="0.6" x2="-8.375" y2="-0.4" width="0.1524" layer="51"/>
@@ -360,6 +370,8 @@
 <rectangle x1="4.215" y1="0.6" x2="4.535" y2="1.6" layer="51"/>
 <rectangle x1="5.465" y1="0.6" x2="5.785" y2="1.6" layer="51"/>
 <rectangle x1="6.715" y1="0.6" x2="7.035" y2="1.6" layer="51"/>
+<circle x="-7.9" y="1.2" radius="0.1" width="0.2" layer="51"/>
+<circle x="-7.9" y="1.2" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53047-12">
 <wire x1="-8.075" y1="-1.15" x2="8.075" y2="-1.15" width="0.1524" layer="21"/>
@@ -384,6 +396,10 @@
 <pad name="12" x="6.875" y="0" drill="0.5" rot="R90"/>
 <text x="-8.0772" y="2.3122" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-8.0518" y="-2.082" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
+<circle x="-8.45" y="0" radius="0.1" width="0.2" layer="51"/>
+<circle x="-8.45" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-7.75" y="0" radius="0.1" width="0.2" layer="52"/>
+<circle x="-7.75" y="0" radius="0.1" width="0.2" layer="22"/>
 </package>
 <package name="PB-53398-12">
 <wire x1="-0.125" y1="1.1" x2="0.125" y2="1.1" width="0.1524" layer="21"/>
@@ -434,6 +450,8 @@
 <rectangle x1="4.215" y1="1.1" x2="4.535" y2="1.6" layer="51"/>
 <rectangle x1="5.465" y1="1.1" x2="5.785" y2="1.6" layer="51"/>
 <rectangle x1="6.715" y1="1.1" x2="7.035" y2="1.6" layer="51"/>
+<circle x="-7.8" y="1.6" radius="0.1" width="0.2" layer="51"/>
+<circle x="-7.8" y="1.6" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53261-02">
 <wire x1="-2.125" y1="0.6" x2="-2.125" y2="-0.4" width="0.1524" layer="51"/>
@@ -466,6 +484,8 @@
 <text x="-2.2098" y="-4.699" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 <rectangle x1="-0.785" y1="0.6" x2="-0.465" y2="1.6" layer="51"/>
 <rectangle x1="0.465" y1="0.6" x2="0.785" y2="1.6" layer="51"/>
+<circle x="-1.6" y="1.2" radius="0.1" width="0.2" layer="51"/>
+<circle x="-1.6" y="1.2" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53261-07">
 <wire x1="-5.25" y1="0.6" x2="-5.25" y2="-0.4" width="0.1524" layer="51"/>
@@ -513,6 +533,8 @@
 <rectangle x1="-0.16" y1="0.6" x2="0.16" y2="1.6" layer="51"/>
 <rectangle x1="1.09" y1="0.6" x2="1.41" y2="1.6" layer="51"/>
 <rectangle x1="2.34" y1="0.6" x2="2.66" y2="1.6" layer="51"/>
+<circle x="-4.8" y="1.2" radius="0.1" width="0.2" layer="51"/>
+<circle x="-4.8" y="1.2" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53261-11">
 <wire x1="-7.75" y1="0.6" x2="-7.75" y2="-0.4" width="0.1524" layer="51"/>
@@ -572,6 +594,8 @@
 <rectangle x1="3.59" y1="0.6" x2="3.91" y2="1.6" layer="51"/>
 <rectangle x1="4.84" y1="0.6" x2="5.16" y2="1.6" layer="51"/>
 <rectangle x1="6.09" y1="0.6" x2="6.41" y2="1.6" layer="51"/>
+<circle x="-7.3" y="1.2" radius="0.1" width="0.2" layer="51"/>
+<circle x="-7.3" y="1.2" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53261-10">
 <wire x1="-7.125" y1="0.6" x2="-7.125" y2="-0.4" width="0.1524" layer="51"/>
@@ -628,6 +652,8 @@
 <rectangle x1="0.465" y1="0.6" x2="0.785" y2="1.6" layer="51"/>
 <rectangle x1="4.215" y1="0.6" x2="4.535" y2="1.6" layer="51"/>
 <rectangle x1="5.465" y1="0.6" x2="5.785" y2="1.6" layer="51"/>
+<circle x="-6.7" y="1.2" radius="0.1" width="0.2" layer="51"/>
+<circle x="-6.7" y="1.2" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53261-09">
 <wire x1="-6.5" y1="0.6" x2="-6.5" y2="-0.4" width="0.1524" layer="51"/>
@@ -681,6 +707,8 @@
 <rectangle x1="-0.16" y1="0.6" x2="0.16" y2="1.6" layer="51"/>
 <rectangle x1="1.09" y1="0.6" x2="1.41" y2="1.6" layer="51"/>
 <rectangle x1="4.84" y1="0.6" x2="5.16" y2="1.6" layer="51"/>
+<circle x="-6" y="1.2" radius="0.1" width="0.2" layer="51"/>
+<circle x="-6" y="1.2" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53261-15">
 <wire x1="-10.25" y1="0.6" x2="-10.25" y2="-0.4" width="0.1524" layer="51"/>
@@ -752,6 +780,8 @@
 <rectangle x1="6.09" y1="0.6" x2="6.41" y2="1.6" layer="51"/>
 <rectangle x1="7.34" y1="0.6" x2="7.66" y2="1.6" layer="51"/>
 <rectangle x1="8.59" y1="0.6" x2="8.91" y2="1.6" layer="51"/>
+<circle x="-9.8" y="1.2" radius="0.1" width="0.2" layer="51"/>
+<circle x="-9.8" y="1.2" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53261-14">
 <wire x1="-9.625" y1="0.6" x2="-9.625" y2="-0.4" width="0.1524" layer="51"/>
@@ -820,6 +850,8 @@
 <rectangle x1="5.465" y1="0.6" x2="5.785" y2="1.6" layer="51"/>
 <rectangle x1="6.715" y1="0.6" x2="7.035" y2="1.6" layer="51"/>
 <rectangle x1="7.965" y1="0.6" x2="8.285" y2="1.6" layer="51"/>
+<circle x="-9.2" y="1.2" radius="0.1" width="0.2" layer="51"/>
+<circle x="-9.2" y="1.2" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53261-13">
 <wire x1="-9" y1="0.6" x2="-9" y2="-0.4" width="0.1524" layer="51"/>
@@ -885,6 +917,8 @@
 <rectangle x1="4.84" y1="0.6" x2="5.16" y2="1.6" layer="51"/>
 <rectangle x1="6.09" y1="0.6" x2="6.41" y2="1.6" layer="51"/>
 <rectangle x1="7.34" y1="0.6" x2="7.66" y2="1.6" layer="51"/>
+<circle x="-8.5" y="1.2" radius="0.1" width="0.2" layer="51"/>
+<circle x="-8.5" y="1.2" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53398-15">
 <wire x1="-2" y1="1.1" x2="-1.75" y2="1.1" width="0.1524" layer="21"/>
@@ -944,6 +978,8 @@
 <rectangle x1="6.09" y1="1.1" x2="6.41" y2="1.6" layer="51"/>
 <rectangle x1="7.34" y1="1.1" x2="7.66" y2="1.6" layer="51"/>
 <rectangle x1="8.59" y1="1.1" x2="8.91" y2="1.6" layer="51"/>
+<circle x="-9.7" y="1.6" radius="0.1" width="0.2" layer="51"/>
+<circle x="-9.7" y="1.6" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53398-14">
 <wire x1="-1.375" y1="1.1" x2="-1.125" y2="1.1" width="0.1524" layer="21"/>
@@ -1000,6 +1036,8 @@
 <rectangle x1="5.465" y1="1.1" x2="5.785" y2="1.6" layer="51"/>
 <rectangle x1="6.715" y1="1.1" x2="7.035" y2="1.6" layer="51"/>
 <rectangle x1="7.965" y1="1.1" x2="8.285" y2="1.6" layer="51"/>
+<circle x="-9.1" y="1.6" radius="0.1" width="0.2" layer="51"/>
+<circle x="-9.1" y="1.6" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53398-13">
 <wire x1="-0.75" y1="1.1" x2="-0.5" y2="1.1" width="0.1524" layer="21"/>
@@ -1053,6 +1091,8 @@
 <rectangle x1="4.84" y1="1.1" x2="5.16" y2="1.6" layer="51"/>
 <rectangle x1="6.09" y1="1.1" x2="6.41" y2="1.6" layer="51"/>
 <rectangle x1="7.34" y1="1.1" x2="7.66" y2="1.6" layer="51"/>
+<circle x="-8.4" y="1.6" radius="0.1" width="0.2" layer="51"/>
+<circle x="-8.4" y="1.6" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53398-11">
 <wire x1="0.5" y1="1.1" x2="0.75" y2="1.1" width="0.1524" layer="21"/>
@@ -1100,6 +1140,8 @@
 <rectangle x1="3.59" y1="1.1" x2="3.91" y2="1.6" layer="51"/>
 <rectangle x1="4.84" y1="1.1" x2="5.16" y2="1.6" layer="51"/>
 <rectangle x1="6.09" y1="1.1" x2="6.41" y2="1.6" layer="51"/>
+<circle x="-7.2" y="1.6" radius="0.1" width="0.2" layer="51"/>
+<circle x="-7.2" y="1.6" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53398-10">
 <wire x1="1.125" y1="1.1" x2="1.375" y2="1.1" width="0.1524" layer="21"/>
@@ -1144,6 +1186,8 @@
 <rectangle x1="2.965" y1="1.1" x2="3.285" y2="1.6" layer="51"/>
 <rectangle x1="4.215" y1="1.1" x2="4.535" y2="1.6" layer="51"/>
 <rectangle x1="5.465" y1="1.1" x2="5.785" y2="1.6" layer="51"/>
+<circle x="-6.6" y="1.6" radius="0.1" width="0.2" layer="51"/>
+<circle x="-6.6" y="1.6" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53398-09">
 <wire x1="1.75" y1="1.1" x2="2" y2="1.1" width="0.1524" layer="21"/>
@@ -1185,6 +1229,8 @@
 <rectangle x1="2.34" y1="1.1" x2="2.66" y2="1.6" layer="51"/>
 <rectangle x1="3.59" y1="1.1" x2="3.91" y2="1.6" layer="51"/>
 <rectangle x1="4.84" y1="1.1" x2="5.16" y2="1.6" layer="51"/>
+<circle x="-5.9" y="1.6" radius="0.1" width="0.2" layer="51"/>
+<circle x="-5.9" y="1.6" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53398-08">
 <wire x1="2.375" y1="1.1" x2="2.625" y2="1.1" width="0.1524" layer="21"/>
@@ -1223,6 +1269,8 @@
 <rectangle x1="1.715" y1="1.1" x2="2.035" y2="1.6" layer="51"/>
 <rectangle x1="2.965" y1="1.1" x2="3.285" y2="1.6" layer="51"/>
 <rectangle x1="4.215" y1="1.1" x2="4.535" y2="1.6" layer="51"/>
+<circle x="-5.3" y="1.6" radius="0.1" width="0.2" layer="51"/>
+<circle x="-5.3" y="1.6" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53398-07">
 <wire x1="3" y1="1.1" x2="3.25" y2="1.1" width="0.1524" layer="21"/>
@@ -1258,6 +1306,8 @@
 <rectangle x1="1.09" y1="1.1" x2="1.41" y2="1.6" layer="51"/>
 <rectangle x1="2.34" y1="1.1" x2="2.66" y2="1.6" layer="51"/>
 <rectangle x1="3.59" y1="1.1" x2="3.91" y2="1.6" layer="51"/>
+<circle x="-4.7" y="1.6" radius="0.1" width="0.2" layer="51"/>
+<circle x="-4.7" y="1.6" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53398-06">
 <wire x1="2.375" y1="1.1" x2="2.625" y2="1.1" width="0.1524" layer="21"/>
@@ -1290,6 +1340,8 @@
 <rectangle x1="0.465" y1="1.1" x2="0.785" y2="1.6" layer="51"/>
 <rectangle x1="1.715" y1="1.1" x2="2.035" y2="1.6" layer="51"/>
 <rectangle x1="2.965" y1="1.1" x2="3.285" y2="1.6" layer="51"/>
+<circle x="-4.1" y="1.6" radius="0.1" width="0.2" layer="51"/>
+<circle x="-4.1" y="1.6" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53398-05">
 <wire x1="1.75" y1="1.1" x2="2" y2="1.1" width="0.1524" layer="21"/>
@@ -1319,6 +1371,8 @@
 <rectangle x1="-0.16" y1="1.1" x2="0.16" y2="1.6" layer="51"/>
 <rectangle x1="1.09" y1="1.1" x2="1.41" y2="1.6" layer="51"/>
 <rectangle x1="2.34" y1="1.1" x2="2.66" y2="1.6" layer="51"/>
+<circle x="-3.4" y="1.6" radius="0.1" width="0.2" layer="51"/>
+<circle x="-3.4" y="1.6" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53398-04">
 <wire x1="1.125" y1="1.1" x2="1.375" y2="1.1" width="0.1524" layer="21"/>
@@ -1345,6 +1399,8 @@
 <rectangle x1="-0.785" y1="1.1" x2="-0.465" y2="1.6" layer="51"/>
 <rectangle x1="0.465" y1="1.1" x2="0.785" y2="1.6" layer="51"/>
 <rectangle x1="1.715" y1="1.1" x2="2.035" y2="1.6" layer="51"/>
+<circle x="-2.8" y="1.6" radius="0.1" width="0.2" layer="51"/>
+<circle x="-2.8" y="1.6" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53398-03">
 <wire x1="0.5" y1="1.1" x2="0.75" y2="1.1" width="0.1524" layer="21"/>
@@ -1368,6 +1424,8 @@
 <rectangle x1="-1.41" y1="1.1" x2="-1.09" y2="1.6" layer="51"/>
 <rectangle x1="-0.16" y1="1.1" x2="0.16" y2="1.6" layer="51"/>
 <rectangle x1="1.09" y1="1.1" x2="1.41" y2="1.6" layer="51"/>
+<circle x="-2.2" y="1.6" radius="0.1" width="0.2" layer="51"/>
+<circle x="-2.2" y="1.6" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53398-02">
 <wire x1="-0.125" y1="1.1" x2="0.125" y2="1.1" width="0.1524" layer="21"/>
@@ -1388,6 +1446,8 @@
 <text x="-2.4638" y="-4.064" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 <rectangle x1="-0.785" y1="1.1" x2="-0.465" y2="1.6" layer="51"/>
 <rectangle x1="0.465" y1="1.1" x2="0.785" y2="1.6" layer="51"/>
+<circle x="-1.6" y="1.6" radius="0.1" width="0.2" layer="51"/>
+<circle x="-1.6" y="1.6" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="PB-53047-15">
 <wire x1="-9.95" y1="-1.15" x2="9.95" y2="-1.15" width="0.1524" layer="21"/>
@@ -1415,6 +1475,10 @@
 <pad name="15" x="8.75" y="0" drill="0.5" rot="R90"/>
 <text x="-9.9822" y="2.3122" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-9.9568" y="-2.082" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
+<circle x="-10.3" y="0" radius="0.1" width="0.2" layer="51"/>
+<circle x="-10.3" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-9.6" y="0" radius="0.1" width="0.2" layer="52"/>
+<circle x="-9.6" y="0" radius="0.1" width="0.2" layer="22"/>
 </package>
 <package name="PB-53047-14">
 <wire x1="-9.325" y1="-1.15" x2="9.325" y2="-1.15" width="0.1524" layer="21"/>
@@ -1441,6 +1505,10 @@
 <pad name="14" x="8.125" y="0" drill="0.5" rot="R90"/>
 <text x="-9.3472" y="2.3122" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-9.3218" y="-2.082" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
+<circle x="-9.7" y="0" radius="0.1" width="0.2" layer="51"/>
+<circle x="-9.7" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-9" y="0" radius="0.1" width="0.2" layer="52"/>
+<circle x="-9" y="0" radius="0.1" width="0.2" layer="22"/>
 </package>
 <package name="PB-53047-13">
 <wire x1="-8.7" y1="-1.15" x2="8.7" y2="-1.15" width="0.1524" layer="21"/>
@@ -1466,6 +1534,10 @@
 <pad name="13" x="7.5" y="0" drill="0.5" rot="R90"/>
 <text x="-8.7122" y="2.3122" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-8.6868" y="-2.082" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
+<circle x="-9.05" y="0" radius="0.1" width="0.2" layer="51"/>
+<circle x="-9.05" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-8.35" y="0" radius="0.1" width="0.2" layer="52"/>
+<circle x="-8.35" y="0" radius="0.1" width="0.2" layer="22"/>
 </package>
 <package name="PB-53047-11">
 <wire x1="-7.45" y1="-1.15" x2="7.45" y2="-1.15" width="0.1524" layer="21"/>
@@ -1489,6 +1561,10 @@
 <pad name="11" x="6.25" y="0" drill="0.5" rot="R90"/>
 <text x="-7.4422" y="2.3122" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-7.4168" y="-2.082" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
+<circle x="-7.8" y="0" radius="0.1" width="0.2" layer="51"/>
+<circle x="-7.8" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-7.1" y="0" radius="0.1" width="0.2" layer="52"/>
+<circle x="-7.1" y="0" radius="0.1" width="0.2" layer="22"/>
 </package>
 <package name="PB-53047-10">
 <wire x1="-6.825" y1="-1.15" x2="6.825" y2="-1.15" width="0.1524" layer="21"/>
@@ -1511,6 +1587,10 @@
 <pad name="10" x="5.625" y="0" drill="0.5" rot="R90"/>
 <text x="-6.8072" y="2.3122" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-6.7818" y="-2.082" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
+<circle x="-7.2" y="0" radius="0.1" width="0.2" layer="51"/>
+<circle x="-7.2" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-6.5" y="0" radius="0.1" width="0.2" layer="52"/>
+<circle x="-6.5" y="0" radius="0.1" width="0.2" layer="22"/>
 </package>
 <package name="PB-53047-09">
 <wire x1="-6.2" y1="-1.15" x2="6.2" y2="-1.15" width="0.1524" layer="21"/>
@@ -1532,6 +1612,10 @@
 <pad name="9" x="5" y="0" drill="0.5" rot="R90"/>
 <text x="-6.1722" y="2.3122" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-6.1468" y="-2.082" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
+<circle x="-6.55" y="0" radius="0.1" width="0.2" layer="51"/>
+<circle x="-6.55" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-5.85" y="0" radius="0.1" width="0.2" layer="52"/>
+<circle x="-5.85" y="0" radius="0.1" width="0.2" layer="22"/>
 </package>
 <package name="PB-53047-08">
 <wire x1="-5.575" y1="-1.15" x2="5.575" y2="-1.15" width="0.1524" layer="21"/>
@@ -1552,6 +1636,10 @@
 <pad name="8" x="4.375" y="0" drill="0.5" rot="R90"/>
 <text x="-5.5372" y="2.3122" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-5.5118" y="-2.082" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
+<circle x="-5.95" y="0" radius="0.1" width="0.2" layer="51"/>
+<circle x="-5.95" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-5.25" y="0" radius="0.1" width="0.2" layer="52"/>
+<circle x="-5.25" y="0" radius="0.1" width="0.2" layer="22"/>
 </package>
 <package name="PB-53047-07">
 <wire x1="-4.95" y1="-1.15" x2="4.95" y2="-1.15" width="0.1524" layer="21"/>
@@ -1571,6 +1659,10 @@
 <pad name="7" x="3.75" y="0" drill="0.5" rot="R90"/>
 <text x="-5.0292" y="2.3122" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-5.0038" y="-2.082" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
+<circle x="-5.3" y="0" radius="0.1" width="0.2" layer="51"/>
+<circle x="-5.3" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-4.6" y="0" radius="0.1" width="0.2" layer="52"/>
+<circle x="-4.6" y="0" radius="0.1" width="0.2" layer="22"/>
 </package>
 <package name="PB-53047-06">
 <wire x1="-4.325" y1="-1.15" x2="4.325" y2="-1.15" width="0.1524" layer="21"/>
@@ -1589,6 +1681,10 @@
 <pad name="6" x="3.125" y="0" drill="0.5" rot="R90"/>
 <text x="-4.3942" y="2.3122" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-4.3688" y="-2.082" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
+<circle x="-4.7" y="0" radius="0.1" width="0.2" layer="51"/>
+<circle x="-4.7" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-4" y="0" radius="0.1" width="0.2" layer="52"/>
+<circle x="-4" y="0" radius="0.1" width="0.2" layer="22"/>
 </package>
 <package name="PB-53047-05">
 <wire x1="-3.7" y1="-1.15" x2="3.7" y2="-1.15" width="0.1524" layer="21"/>
@@ -1606,6 +1702,10 @@
 <pad name="5" x="2.5" y="0" drill="0.5" rot="R90"/>
 <text x="-3.7592" y="2.3122" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-3.7338" y="-2.082" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
+<circle x="-4.05" y="0" radius="0.1" width="0.2" layer="51"/>
+<circle x="-4.05" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-3.35" y="0" radius="0.1" width="0.2" layer="52"/>
+<circle x="-3.35" y="0" radius="0.1" width="0.2" layer="22"/>
 </package>
 <package name="PB-53047-04">
 <wire x1="-3.075" y1="-1.15" x2="3.075" y2="-1.15" width="0.1524" layer="21"/>
@@ -1622,6 +1722,10 @@
 <pad name="4" x="1.875" y="0" drill="0.5" rot="R90"/>
 <text x="-3.1242" y="2.3122" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-3.0988" y="-2.082" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
+<circle x="-3.45" y="0" radius="0.1" width="0.2" layer="51"/>
+<circle x="-3.45" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.75" y="0" radius="0.1" width="0.2" layer="52"/>
+<circle x="-2.75" y="0" radius="0.1" width="0.2" layer="22"/>
 </package>
 <package name="PB-53047-03">
 <wire x1="-2.45" y1="-1.15" x2="2.45" y2="-1.15" width="0.1524" layer="21"/>
@@ -1637,6 +1741,10 @@
 <pad name="3" x="1.25" y="0" drill="0.5" rot="R90"/>
 <text x="-2.4892" y="2.3122" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-2.4638" y="-2.082" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
+<circle x="-2.8" y="0" radius="0.1" width="0.2" layer="51"/>
+<circle x="-2.8" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.1" y="0" radius="0.1" width="0.2" layer="52"/>
+<circle x="-2.1" y="0" radius="0.1" width="0.2" layer="22"/>
 </package>
 <package name="PB-53047-02">
 <wire x1="-1.825" y1="-1.15" x2="1.825" y2="-1.15" width="0.1524" layer="21"/>
@@ -1651,6 +1759,10 @@
 <pad name="2" x="0.625" y="0" drill="0.5" rot="R90"/>
 <text x="-1.8542" y="2.1852" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-1.8288" y="-1.955" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
+<circle x="-2.2" y="0" radius="0.1" width="0.2" layer="51"/>
+<circle x="-2.2" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1.5" y="0" radius="0.1" width="0.2" layer="52"/>
+<circle x="-1.5" y="0" radius="0.1" width="0.2" layer="22"/>
 </package>
 <package name="PB-53048-04">
 <description>Right Angle Through Hole</description>
@@ -1658,12 +1770,16 @@
 <wire x1="3.375" y1="-1.05" x2="3.375" y2="4.45" width="0.1524" layer="21"/>
 <wire x1="3.375" y1="4.45" x2="-3.375" y2="4.45" width="0.1524" layer="21"/>
 <wire x1="-3.375" y1="4.45" x2="-3.375" y2="-1.05" width="0.1524" layer="21"/>
-<pad name="1" x="-1.875" y="0" drill="0.5" rot="R90"/>
-<pad name="2" x="-0.625" y="0" drill="0.5" rot="R90"/>
-<pad name="3" x="0.625" y="0" drill="0.5" rot="R90"/>
-<pad name="4" x="1.875" y="0" drill="0.5" rot="R90"/>
+<pad name="1" x="1.875" y="0" drill="0.5" rot="R270"/>
+<pad name="2" x="0.625" y="0" drill="0.5" rot="R270"/>
+<pad name="3" x="-0.625" y="0" drill="0.5" rot="R270"/>
+<pad name="4" x="-1.875" y="0" drill="0.5" rot="R270"/>
 <text x="-3.1242" y="4.7122" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-3.0988" y="-2.082" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
+<circle x="3.7" y="0" radius="0.1" width="0.2" layer="51"/>
+<circle x="3.7" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="3" y="0" radius="0.1" width="0.2" layer="52"/>
+<circle x="3" y="0" radius="0.1" width="0.2" layer="22"/>
 </package>
 <package name="CM-502386-02">
 <description>Click Mate Right Angle</description>
