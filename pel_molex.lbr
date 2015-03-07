@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1799,6 +1799,8 @@
 <wire x1="1.2" y1="-4.4" x2="2.925" y2="-4.4" width="0.15" layer="21"/>
 <wire x1="2.925" y1="-4.4" x2="2.925" y2="-2.9" width="0.15" layer="21"/>
 <wire x1="1.7" y1="0" x2="-1.7" y2="0" width="0.15" layer="21"/>
+<text x="-1.6" y="-1.5" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-1.8" y="-2.6" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 <package name="CM-502386-03">
 <description>Click Mate Right Angle</description>
@@ -1820,6 +1822,8 @@
 <wire x1="2.325" y1="0" x2="-2.325" y2="0" width="0.15" layer="21"/>
 <smd name="3" x="-1.25" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
 <wire x1="-0.725" y1="-4.4" x2="-0.525" y2="-4.4" width="0.15" layer="21"/>
+<text x="-1.4" y="-1.5" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-1.6" y="-2.6" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 <package name="CM-502386-04">
 <description>Click Mate Right Angle</description>
@@ -1843,6 +1847,8 @@
 <wire x1="-0.1" y1="-4.4" x2="0.1" y2="-4.4" width="0.15" layer="21"/>
 <smd name="4" x="-1.875" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
 <wire x1="-1.35" y1="-4.4" x2="-1.15" y2="-4.4" width="0.15" layer="21"/>
+<text x="-1.5" y="-1.5" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-1.7" y="-2.6" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 <package name="CM-502386-05">
 <description>Click Mate Right Angle</description>
@@ -1868,6 +1874,8 @@
 <wire x1="-0.725" y1="-4.4" x2="-0.525" y2="-4.4" width="0.15" layer="21"/>
 <smd name="5" x="-2.5" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
 <wire x1="-1.975" y1="-4.4" x2="-1.775" y2="-4.4" width="0.15" layer="21"/>
+<text x="-1.5" y="-1.4" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-1.7" y="-2.5" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 <package name="CM-502386-06">
 <description>Click Mate Right Angle</description>
@@ -1895,6 +1903,8 @@
 <wire x1="-1.35" y1="-4.4" x2="-1.15" y2="-4.4" width="0.15" layer="21"/>
 <smd name="6" x="-3.125" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
 <wire x1="-2.6" y1="-4.4" x2="-2.4" y2="-4.4" width="0.15" layer="21"/>
+<text x="-1.5" y="-1.5" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-1.7" y="-2.6" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 <package name="CM-502386-07">
 <description>Click Mate Right Angle</description>
@@ -1924,6 +1934,8 @@
 <wire x1="-1.975" y1="-4.4" x2="-1.775" y2="-4.4" width="0.15" layer="21"/>
 <smd name="7" x="-3.75" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
 <wire x1="-3.225" y1="-4.4" x2="-3.025" y2="-4.4" width="0.15" layer="21"/>
+<text x="-1.5" y="-1.5" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-1.7" y="-2.6" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 <package name="CM-502382-02">
 <description>Click Mate Vertical</description>
@@ -1945,6 +1957,8 @@
 <wire x1="1.2" y1="-5.45" x2="2.925" y2="-5.45" width="0.15" layer="21"/>
 <wire x1="2.925" y1="-5.45" x2="2.925" y2="-3.8" width="0.15" layer="21"/>
 <wire x1="-0.1" y1="-5.45" x2="0.1" y2="-5.45" width="0.15" layer="21"/>
+<text x="-1.5" y="-2.4" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-1.7" y="-3.5" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 <package name="CM-502382-03">
 <smd name="1" x="1.25" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
@@ -1967,6 +1981,8 @@
 <wire x1="0.525" y1="-5.45" x2="0.725" y2="-5.45" width="0.15" layer="21"/>
 <smd name="3" x="-1.25" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
 <wire x1="-0.725" y1="-5.45" x2="-0.525" y2="-5.45" width="0.15" layer="21"/>
+<text x="-1.4" y="-2.2" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-1.6" y="-3.3" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 <package name="CM-502382-04">
 <smd name="1" x="1.875" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
@@ -1991,6 +2007,8 @@
 <wire x1="-0.1" y1="-5.45" x2="0.1" y2="-5.45" width="0.15" layer="21"/>
 <smd name="4" x="-1.875" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
 <wire x1="-1.35" y1="-5.45" x2="-1.15" y2="-5.45" width="0.15" layer="21"/>
+<text x="-1.5" y="-2.1" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-1.7" y="-3.2" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 <package name="CM-502382-05">
 <smd name="1" x="2.5" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
@@ -2017,6 +2035,8 @@
 <wire x1="-0.725" y1="-5.45" x2="-0.525" y2="-5.45" width="0.15" layer="21"/>
 <smd name="5" x="-2.5" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
 <wire x1="-1.975" y1="-5.45" x2="-1.775" y2="-5.45" width="0.15" layer="21"/>
+<text x="-1.6" y="-2" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-1.8" y="-3.1" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 <package name="CM-502382-06">
 <smd name="1" x="3.125" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
@@ -2045,6 +2065,8 @@
 <wire x1="-1.35" y1="-5.45" x2="-1.15" y2="-5.45" width="0.15" layer="21"/>
 <smd name="6" x="-3.125" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
 <wire x1="-2.6" y1="-5.45" x2="-2.4" y2="-5.45" width="0.15" layer="21"/>
+<text x="-1.4" y="-2" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-1.6" y="-3.1" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 <package name="CM-502382-07">
 <smd name="1" x="3.75" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
@@ -2075,6 +2097,8 @@
 <wire x1="-1.975" y1="-5.45" x2="-1.775" y2="-5.45" width="0.15" layer="21"/>
 <smd name="7" x="-3.75" y="-5.45" dx="0.6" dy="1.7" layer="1"/>
 <wire x1="-3.225" y1="-5.45" x2="-3.025" y2="-5.45" width="0.15" layer="21"/>
+<text x="-1.6" y="-2" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-1.8" y="-3.1" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
