@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -36,10 +36,10 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -1665,6 +1665,150 @@
 <text x="-3.1242" y="4.7122" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-3.0988" y="-2.082" size="0.635" layer="28" font="vector" ratio="16">&gt;VALUE</text>
 </package>
+<package name="CM-502386-02">
+<description>Click Mate Right Angle</description>
+<smd name="1" x="0.625" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<smd name="2" x="-0.625" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<smd name="P1" x="2.475" y="-1.25" dx="1" dy="2.7" layer="1"/>
+<smd name="P2" x="-2.475" y="-1.25" dx="1" dy="2.7" layer="1"/>
+<wire x1="-2.925" y1="0" x2="2.925" y2="0" width="0.15" layer="51"/>
+<wire x1="2.925" y1="0" x2="2.925" y2="-4.4" width="0.15" layer="51"/>
+<wire x1="2.925" y1="-4.4" x2="-2.925" y2="-4.4" width="0.15" layer="51"/>
+<wire x1="-2.925" y1="-4.4" x2="-2.925" y2="0" width="0.15" layer="51"/>
+<circle x="1.4" y="-5" radius="0.1" width="0.2" layer="51"/>
+<circle x="1.4" y="-5" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-2.925" y1="-2.9" x2="-2.925" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="-2.925" y1="-4.4" x2="-1.2" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="-0.1" y1="-4.4" x2="0.1" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="1.2" y1="-4.4" x2="2.925" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="2.925" y1="-4.4" x2="2.925" y2="-2.9" width="0.15" layer="21"/>
+<wire x1="1.7" y1="0" x2="-1.7" y2="0" width="0.15" layer="21"/>
+</package>
+<package name="CM-502386-03">
+<description>Click Mate Right Angle</description>
+<smd name="1" x="1.25" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<smd name="2" x="0" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<smd name="P1" x="3.1" y="-1.25" dx="1" dy="2.7" layer="1"/>
+<smd name="P2" x="-3.1" y="-1.25" dx="1" dy="2.7" layer="1"/>
+<wire x1="-3.55" y1="0" x2="3.55" y2="0" width="0.15" layer="51"/>
+<wire x1="3.55" y1="0" x2="3.55" y2="-4.4" width="0.15" layer="51"/>
+<wire x1="3.55" y1="-4.4" x2="-3.55" y2="-4.4" width="0.15" layer="51"/>
+<wire x1="-3.55" y1="-4.4" x2="-3.55" y2="0" width="0.15" layer="51"/>
+<circle x="2.025" y="-5" radius="0.1" width="0.2" layer="51"/>
+<circle x="2.025" y="-5" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-3.55" y1="-2.9" x2="-3.55" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="-3.55" y1="-4.4" x2="-1.825" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="0.525" y1="-4.4" x2="0.725" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="1.825" y1="-4.4" x2="3.55" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="3.55" y1="-4.4" x2="3.55" y2="-2.9" width="0.15" layer="21"/>
+<wire x1="2.325" y1="0" x2="-2.325" y2="0" width="0.15" layer="21"/>
+<smd name="3" x="-1.25" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<wire x1="-0.725" y1="-4.4" x2="-0.525" y2="-4.4" width="0.15" layer="21"/>
+</package>
+<package name="CM-502386-04">
+<description>Click Mate Right Angle</description>
+<smd name="1" x="1.875" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<smd name="2" x="0.625" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<smd name="P1" x="3.725" y="-1.25" dx="1" dy="2.7" layer="1"/>
+<smd name="P2" x="-3.725" y="-1.25" dx="1" dy="2.7" layer="1"/>
+<wire x1="-4.175" y1="0" x2="4.175" y2="0" width="0.15" layer="51"/>
+<wire x1="4.175" y1="0" x2="4.175" y2="-4.4" width="0.15" layer="51"/>
+<wire x1="4.175" y1="-4.4" x2="-4.175" y2="-4.4" width="0.15" layer="51"/>
+<wire x1="-4.175" y1="-4.4" x2="-4.175" y2="0" width="0.15" layer="51"/>
+<circle x="2.65" y="-5" radius="0.1" width="0.2" layer="51"/>
+<circle x="2.65" y="-5" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-4.175" y1="-2.9" x2="-4.175" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="-4.175" y1="-4.4" x2="-2.45" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="1.15" y1="-4.4" x2="1.35" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="2.45" y1="-4.4" x2="4.175" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="4.175" y1="-4.4" x2="4.175" y2="-2.9" width="0.15" layer="21"/>
+<wire x1="2.95" y1="0" x2="-2.95" y2="0" width="0.15" layer="21"/>
+<smd name="3" x="-0.625" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<wire x1="-0.1" y1="-4.4" x2="0.1" y2="-4.4" width="0.15" layer="21"/>
+<smd name="4" x="-1.875" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<wire x1="-1.35" y1="-4.4" x2="-1.15" y2="-4.4" width="0.15" layer="21"/>
+</package>
+<package name="CM-502386-05">
+<description>Click Mate Right Angle</description>
+<smd name="1" x="2.5" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<smd name="2" x="1.25" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<smd name="P1" x="4.35" y="-1.25" dx="1" dy="2.7" layer="1"/>
+<smd name="P2" x="-4.35" y="-1.25" dx="1" dy="2.7" layer="1"/>
+<wire x1="-4.8" y1="0" x2="4.8" y2="0" width="0.15" layer="51"/>
+<wire x1="4.8" y1="0" x2="4.8" y2="-4.4" width="0.15" layer="51"/>
+<wire x1="4.8" y1="-4.4" x2="-4.8" y2="-4.4" width="0.15" layer="51"/>
+<wire x1="-4.8" y1="-4.4" x2="-4.8" y2="0" width="0.15" layer="51"/>
+<circle x="3.275" y="-5" radius="0.1" width="0.2" layer="51"/>
+<circle x="3.275" y="-5" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-4.8" y1="-2.9" x2="-4.8" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="-4.8" y1="-4.4" x2="-3.075" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="1.775" y1="-4.4" x2="1.975" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="3.075" y1="-4.4" x2="4.8" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="4.8" y1="-4.4" x2="4.8" y2="-2.9" width="0.15" layer="21"/>
+<wire x1="3.575" y1="0" x2="-3.575" y2="0" width="0.15" layer="21"/>
+<smd name="3" x="0" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<wire x1="0.525" y1="-4.4" x2="0.725" y2="-4.4" width="0.15" layer="21"/>
+<smd name="4" x="-1.25" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<wire x1="-0.725" y1="-4.4" x2="-0.525" y2="-4.4" width="0.15" layer="21"/>
+<smd name="5" x="-2.5" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<wire x1="-1.975" y1="-4.4" x2="-1.775" y2="-4.4" width="0.15" layer="21"/>
+</package>
+<package name="CM-502386-06">
+<description>Click Mate Right Angle</description>
+<smd name="1" x="3.125" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<smd name="2" x="1.875" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<smd name="P1" x="4.975" y="-1.25" dx="1" dy="2.7" layer="1"/>
+<smd name="P2" x="-4.975" y="-1.25" dx="1" dy="2.7" layer="1"/>
+<wire x1="-5.425" y1="0" x2="5.425" y2="0" width="0.15" layer="51"/>
+<wire x1="5.425" y1="0" x2="5.425" y2="-4.4" width="0.15" layer="51"/>
+<wire x1="5.425" y1="-4.4" x2="-5.425" y2="-4.4" width="0.15" layer="51"/>
+<wire x1="-5.425" y1="-4.4" x2="-5.425" y2="0" width="0.15" layer="51"/>
+<circle x="3.9" y="-5" radius="0.1" width="0.2" layer="51"/>
+<circle x="3.9" y="-5" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-5.425" y1="-2.9" x2="-5.425" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="-5.425" y1="-4.4" x2="-3.7" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="2.4" y1="-4.4" x2="2.6" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="3.7" y1="-4.4" x2="5.425" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="5.425" y1="-4.4" x2="5.425" y2="-2.9" width="0.15" layer="21"/>
+<wire x1="4.2" y1="0" x2="-4.2" y2="0" width="0.15" layer="21"/>
+<smd name="3" x="0.625" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<wire x1="1.15" y1="-4.4" x2="1.35" y2="-4.4" width="0.15" layer="21"/>
+<smd name="4" x="-0.625" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<wire x1="-0.1" y1="-4.4" x2="0.1" y2="-4.4" width="0.15" layer="21"/>
+<smd name="5" x="-1.875" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<wire x1="-1.35" y1="-4.4" x2="-1.15" y2="-4.4" width="0.15" layer="21"/>
+<smd name="6" x="-3.125" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<wire x1="-2.6" y1="-4.4" x2="-2.4" y2="-4.4" width="0.15" layer="21"/>
+</package>
+<package name="CM-502386-07">
+<description>Click Mate Right Angle</description>
+<smd name="1" x="3.75" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<smd name="2" x="2.5" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<smd name="P1" x="5.6" y="-1.25" dx="1" dy="2.7" layer="1"/>
+<smd name="P2" x="-5.6" y="-1.25" dx="1" dy="2.7" layer="1"/>
+<wire x1="-6.05" y1="0" x2="6.05" y2="0" width="0.15" layer="51"/>
+<wire x1="6.05" y1="0" x2="6.05" y2="-4.4" width="0.15" layer="51"/>
+<wire x1="6.05" y1="-4.4" x2="-6.05" y2="-4.4" width="0.15" layer="51"/>
+<wire x1="-6.05" y1="-4.4" x2="-6.05" y2="0" width="0.15" layer="51"/>
+<circle x="4.525" y="-5" radius="0.1" width="0.2" layer="51"/>
+<circle x="4.525" y="-5" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-6.05" y1="-2.9" x2="-6.05" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="-6.05" y1="-4.4" x2="-4.325" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="3.025" y1="-4.4" x2="3.225" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="4.325" y1="-4.4" x2="6.05" y2="-4.4" width="0.15" layer="21"/>
+<wire x1="6.05" y1="-4.4" x2="6.05" y2="-2.9" width="0.15" layer="21"/>
+<wire x1="4.825" y1="0" x2="-4.825" y2="0" width="0.15" layer="21"/>
+<smd name="3" x="1.25" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<wire x1="1.775" y1="-4.4" x2="1.975" y2="-4.4" width="0.15" layer="21"/>
+<smd name="4" x="0" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<wire x1="0.525" y1="-4.4" x2="0.725" y2="-4.4" width="0.15" layer="21"/>
+<smd name="5" x="-1.25" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<wire x1="-0.725" y1="-4.4" x2="-0.525" y2="-4.4" width="0.15" layer="21"/>
+<smd name="6" x="-2.5" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<wire x1="-1.975" y1="-4.4" x2="-1.775" y2="-4.4" width="0.15" layer="21"/>
+<smd name="7" x="-3.75" y="-4.55" dx="0.6" dy="1.7" layer="1"/>
+<wire x1="-3.225" y1="-4.4" x2="-3.025" y2="-4.4" width="0.15" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONN_4-1">
@@ -1949,6 +2093,17 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="-502386" package="CM-502386-04">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CONN_8-1" prefix="X" uservalue="yes">
@@ -2038,6 +2193,16 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="-502386" package="CM-502386-03">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CONN_5-1" prefix="X" uservalue="yes">
@@ -2070,6 +2235,18 @@
 </technologies>
 </device>
 <device name="-53047" package="PB-53047-05">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-502386" package="CM-502386-05">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2115,6 +2292,19 @@
 </technologies>
 </device>
 <device name="-53047" package="PB-53047-06">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-502386" package="CM-502386-06">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2624,6 +2814,20 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="-502386" package="CM-502386-07">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CONN_2-1" prefix="X" uservalue="yes">
@@ -2650,6 +2854,15 @@
 </technologies>
 </device>
 <device name="-53047" package="PB-53047-02">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-502386" package="CM-502386-02">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
